@@ -25,6 +25,12 @@ end
 # Site build.
 gem "rake"
 
+# Site migration from Locomotive CMS.
+group :development do
+  gem "nokogiri"
+  gem "locomotivecms_coal"
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
