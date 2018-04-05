@@ -260,11 +260,18 @@ def ensure_order_field document, entry, collection
   document[order_field] = order_value
 end
 
-def add_implicit_date document, entry
+def add_implicit_date document, entry, collection
   return if document.key? 'date'
 
-  document['date'] = Time.parse(entry.created_at).
-                       strftime('%Y-%m-%d %H:%M:%S %z')
+  field = collection['fields'].find {|f| f['name'] == 'date' }
+
+  if field and field.format == 'YYYY-mm-dd'
+    document['date'] = Date.parse entry.send field['locomotive_name']
+  elsif field
+    document['date'] = Time.parse entry.send field['locomotive_name']
+  else
+    document['date'] = Time.parse entry.created_at
+  end
 end
 
 def entry_to_document entry, collection
@@ -274,7 +281,7 @@ def entry_to_document entry, collection
       reject {|k, v| k.nil? }
   ]
   ensure_order_field document, entry, collection
-  add_implicit_date document, entry
+  add_implicit_date document, entry, collection
 
   document
 end
@@ -315,10 +322,9 @@ def document_filename document, entry, collection
      filename.gsub! '{{slug}}', (document['slug'] || entry._slug)
    end
 
-   date = Time.parse document['date']
-   filename.gsub! '{{year}}', date.strftime('%Y')
-   filename.gsub! '{{month}}', date.strftime('%m')
-   filename.gsub! '{{day}}', date.strftime('%d')
+   filename.gsub! '{{year}}', document['date'].strftime('%Y')
+   filename.gsub! '{{month}}', document['date'].strftime('%m')
+   filename.gsub! '{{day}}', document['date'].strftime('%d')
 
    collection['fields'].each do |f|
      v = document[f['name']] || f['default']
