@@ -14,13 +14,19 @@ require_relative 'util'
 
 
 CMS_CONFIG = "#{jekyll_config['source']}/admin/config.yml"
+DEPLOY_CONFIG = "#{ENV['WAGON']}/config/deploy.yml"
+WAGON_PUBLIC_DIR = "#{ENV['WAGON']}/public"
+
+def wagon_deploy_config
+  YAML.load File.read DEPLOY_CONFIG
+end
 
 $site_client_semaphore = Mutex.new
 def site_client
   $site_client_semaphore.synchronize do
     break @site_client if @site_client
 
-    config = YAML.load(File.read(ENV['DEPLOY_CONFIG']))[ENV['DEPLOY_ENV']]
+    config = wagon_deploy_config[ENV['DEPLOY_ENV']]
 
     client = Locomotive::Coal::Client.new config['host'],
                                           email: config['email'],
@@ -193,12 +199,10 @@ end
 def asset_mapping reload = false
   return @asset_mapping if @asset_mapping and not reload
 
-  asset_dir = cms_config['media_folder'] || cms_config['media_folder']
-
   @asset_mapping = Hash[
     Dir.new(cms_config['media_folder']).entries.
       reject {|e| e == '.' or e == '..' }.
-      map {|e| [e, "/#{asset_dir}/#{e}"] }
+      map {|e| [e, "/#{cms_config['media_folder']}/#{e}"] }
   ]
 end
 
@@ -206,11 +210,35 @@ def asset_mapping!
   asset_mapping true
 end
 
+$wagon_asset_semaphore = Mutex.new
+def try_to_copy_asset_from_wagon filename
+  $wagon_asset_semaphore.synchronize do
+    files = Dir["#{WAGON_PUBLIC_DIR}/**/#{filename}"]
+    return unless files.size == 1
+
+    src = files.first
+    dst = "#{cms_config['media_folder']}/#{unspecialize_name filename}"
+
+    $stderr.puts "cp #{src} #{dst}"
+    FileUtils.cp src, dst
+
+    asset_mapping!
+  end
+end
+
 def local_asset_from remote_asset
   return remote_asset if remote_asset.start_with? '{'
 
-  filename = unspecialize_name File.basename remote_asset
+  orig_filename = File.basename remote_asset
+  filename = unspecialize_name orig_filename
   uri = URI remote_asset.strip
+
+  # Locomotive CMS for some reason does not give all its assets via
+  # API. But they can be found in Wagon and copied here as a last
+  # resort.
+  if uri.host == ENV['ASSET_HOST'] and not asset_mapping.key?(filename)
+    try_to_copy_asset_from_wagon orig_filename
+  end
 
   fail "Unknown asset: #{remote_asset}" if uri.host == ENV['ASSET_HOST'] and
                                            not asset_mapping.key?(filename)
@@ -501,8 +529,8 @@ end
 desc "Migrate everything from site on Locomotive CMS\n" +
      "\n" +
      "The following environment variables are required:\n" +
-     "* DEPLOY_CONFIG: Wagon deployment configration file\n" +
-     "* DEPLOY_ENV: environment to use from the deployment configuration\n" +
+     "* WAGON: Wagon directory\n" +
+     "* DEPLOY_ENV: environment from Wagon deployment configuration\n" +
      "* ASSET_HOST: Locomotive CMS asset host"
 multitask migrate: ['migrate:content_entries', 'migrate:theme_assets',
                     'migrate:pages']
