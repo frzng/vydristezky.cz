@@ -1,0 +1,20 @@
+---
+title: Content page layout
+listed: false
+layout: default
+---
+{% block content %}
+  <div id="content-row">
+    <div class="row-container">
+      <div class="container-fluid">
+        {% include breadcrumb with pages: page.breadcrumbs %}
+        <div class="content-inner row-fluid">
+          <div id="component" class="span12">
+            {% block inner %}
+            {% endblock %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

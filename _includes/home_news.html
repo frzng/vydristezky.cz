@@ -1,0 +1,34 @@
+<div id="mainbottom-row">
+  <div class="row-container">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        {% editable_model news, hint: 'Edit displayed news on the homepage' %}
+          {% with_scope published: true %}
+            {% for news in contents.news, limit: 3 %}
+              <div class="span3">
+                {% include 'home_news_bigitem' with news %}
+              </div>
+            {% endfor %}
+          {% endwith_scope %}
+
+          <div class="moduletable news  span3">
+            <h4 class="moduleTitle ">
+              {% editable_text "Other news title", block: "News", rows: 1, format: 'raw' %}Other news{% endeditable_text %}
+            </h4>
+            <div class="mod-newsflash-adv mod-newsflash-adv__news">
+              {% with_scope published: true %}
+                {% for news in contents.news, limit: 3, offset: 3 %}
+                  {% include 'home_news_smallitem' with news %}
+                {% endfor %}
+              {% endwith_scope %}
+            </div>
+
+            <a class="btn btn-info readmore" href="{% path_to news %}">
+              <span>{% editable_text "Show all", block: "News", rows: 1 %}show all news{% endeditable_text %}</span>
+            </a>
+          </div>
+        {% endeditable_model %}
+      </div>
+    </div>
+  </div>
+</div>

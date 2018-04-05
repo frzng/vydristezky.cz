@@ -1,0 +1,25 @@
+{% capture categories_slugs %}{% for category in photo.categories %} {{ category._slug }}{% endfor %}{% endcapture %}
+<li class="gallery-item firstItem isotope-item {{categories_slugs}}">
+  <div class="item_img img-intro img-intro__left">
+    <a class="zoom"
+       href={{ photo.image.url }}
+       data-rel="lightcase:gallery"
+       title="{{photo.author.name}} - {{photo.title | strip_html}}"
+       data-lc-title="{{photo.author.name}} - {{photo.title | strip_html}}"
+       data-categories="{{categories_slugs}}">
+      <img src="{{ photo.image.url | resize: "250x250#"}}"
+           class="gallery__image object-fit-cover" data-object-fit="cover"
+           alt="{{photo.description | strip_html}}"/>
+    </a>
+  </div>
+  <div class="item_header">
+    <h5 class="item_title">
+      {{ photo.title | truncate: 35}}
+    </h5>
+  </div>
+  <div class="item_introtext">
+    {{ photo.description | truncatewords: 10}}
+    (<i>{{ photo.author.name }}</i>)
+  </div>
+  <div class="clearfix"></div>
+</li>

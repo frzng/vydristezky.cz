@@ -1,0 +1,32 @@
+{% if pages.size > 0 %}
+  <hr class="separator m-top-3 m-bottom-3" />
+
+  {% for child in pages %}
+    {% if child.published? %}
+      <div class="items-row cols-1 row-0 row-fluid">
+        <div class="span12">
+          <div class="item column-1 m-bottom-2">
+
+            {% assign title_image_enabled = child.editable_elements.page.title_image | strip %}
+            {% if title_image_enabled == 'true' and false %}
+              <div class="item_img img-intro img-intro__left">
+                {% link_to child %}
+                  {{ child.editable_elements.page.image | resize: '240x135#' | image_tag }}
+                {% endlink_to %}
+              </div>
+            {% endif %}
+
+            <div class="item_header">
+              <h4 class="item_title">
+                <a href={% path_to child %}>{{ child.editable_elements.page.title }}</a>
+              </h4>
+            </div>
+            <div class="item_introtext remove-all-the-styles">
+              {{ child.editable_elements.page.content | strip_html | truncatewords: 50 }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endif %}

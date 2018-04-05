@@ -1,0 +1,13 @@
+<div class=" item item_num0 item__module">
+  <div class="item_content">
+    <div class="item_published">
+      {{ news.published_at | date: "%e. %-m. %Y" }}
+    </div>
+    <h6 class="item_title item_title__news">
+      {% link_to news %}
+        {{ news.title }}
+      {% endlink_to %}
+    </h6>
+  </div>
+  <div class="clearfix"></div>
+</div>

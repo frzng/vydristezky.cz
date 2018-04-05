@@ -1,0 +1,171 @@
+<div id="maintop-row">
+  <div class="row-container">
+    <div class="container-fluid">
+      <div id="maintop" class="row-fluid">
+        <div class="moduletable animals span12">
+          <div class="mod-newsflash-adv mod-newsflash-adv__animals">
+            <div class="row-fluid flex">
+
+                <!-- Link 1 -->
+                <div class="item item__module">
+                  <div class="item_img img-intro img-intro__none">
+
+                    {% capture url %}
+                      {% editable_text "Url", block: "Link 1", line_break: false, format: 'raw', rows: 1 %}
+                        /blabla
+                      {% endeditable_text %}
+                    {% endcapture %}
+
+                    <a href={{ page.editable_elements.link_1.url }}>
+                      <img
+                        src=
+                          {% editable_file 'Image', block: "Link 1", hint: "Upload an image for the link (perfect size: 156px by 117px)" %}
+                            http://placehold.it/156x117
+                          {% endeditable_file %}
+                        />
+                    </a>
+                  </div>
+                  <div class="item_content">
+                    <h4 class="item_title item_title__animals">
+                      <a href={{ page.editable_elements.link_1.url }}>
+                        {% editable_text "Title", block: "Link 1", rows: 1, format: 'raw' %}
+                          Online poradna
+                        {% endeditable_text %}
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+
+                <!-- Link 2 -->
+                <div class="item item__module">
+                  <div class="item_img img-intro img-intro__none">
+
+                    {% capture url %}
+                      {% editable_text "Url", block: "Link 2", line_break: false, format: 'raw', rows: 1 %}
+                        /
+                      {% endeditable_text %}
+                    {% endcapture %}
+
+                    <a href={{ page.editable_elements.link_2.url }}>
+                      <img
+                        src=
+                          {% editable_file 'Image', block: "Link 2", hint: "Upload an image for the link (perfect size: 156px by 117px)" %}
+                            http://placehold.it/156x117
+                          {% endeditable_file %}
+                        />
+                    </a>
+                  </div>
+                  <div class="item_content">
+                    <h4 class="item_title item_title__animals">
+                      <a href={{ page.editable_elements.link_2.url }}>
+                        {% editable_text "Title", block: "Link 2", rows: 1, format: 'raw' %}
+                          Vydry a škody
+                        {% endeditable_text %}
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+
+                <!-- Link 3 -->
+                <div class="item item__module">
+                  <div class="item_img img-intro img-intro__none">
+
+                    {% capture url %}
+                      {% editable_text "Url", block: "Link 3", line_break: false, format: 'raw', rows: 1 %}
+                        /
+                      {% endeditable_text %}
+                    {% endcapture %}
+
+                    <a href={{ page.editable_elements.link_3.url }}>
+                      <img
+                        src=
+                          {% editable_file 'Image', block: "Link 3", hint: "Upload an image for the link (perfect size: 156px by 117px)" %}
+                            http://placehold.it/156x117
+                          {% endeditable_file %}
+                        />
+                    </a>
+                  </div>
+                  <div class="item_content">
+                    <h4 class="item_title item_title__animals">
+                      <a href={{ page.editable_elements.link_3.url }}>
+                        {% editable_text "Title", block: "Link 3", rows: 1, format: 'raw' %}
+                          Vydra a silnice
+                        {% endeditable_text %}
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+
+                <!-- Link 4 -->
+                <div class="item item__module">
+                  <div class="item_img img-intro img-intro__none">
+
+                    {% capture url %}
+                      {% editable_text "Url", block: "Link 4", line_break: false, format: 'raw', rows: 1 %}
+                        /
+                      {% endeditable_text %}
+                    {% endcapture %}
+
+                    <a href={{ page.editable_elements.link_4.url }}>
+                      <img
+                        src=
+                          {% editable_file 'Image', block: "Link 4", hint: "Upload an image for the link (perfect size: 156px by 117px)" %}
+                            http://placehold.it/156x117
+                          {% endeditable_file %}
+                        />
+                    </a>
+                  </div>
+                  <div class="item_content">
+                    <h4 class="item_title item_title__animals">
+                      <a href={{ page.editable_elements.link_4.url }}>
+                        {% editable_text "Title", block: "Link 4", rows: 1, format: 'raw' %}
+                          Vydří stezky
+                        {% endeditable_text %}
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+
+                <!-- Link 5 -->
+                <div class="item item__module">
+                  <div class="item_img img-intro img-intro__none">
+
+                    {% capture url %}
+                      {% editable_text "Url", block: "Link 5", line_break: false, format: 'raw', rows: 1 %}
+                        /
+                      {% endeditable_text %}
+                    {% endcapture %}
+
+                    <a href={{ page.editable_elements.link_5.url }}>
+                      <img
+                        src=
+                          {% editable_file 'Image', block: "Link 5", hint: "Upload an image for the link (perfect size: 156px by 117px)" %}
+                            http://placehold.it/156x117
+                          {% endeditable_file %}
+                        />
+                    </a>
+                  </div>
+                  <div class="item_content">
+                    <h4 class="item_title item_title__animals">
+                      <a href={{ page.editable_elements.link_5.url }}>
+                        {% editable_text "Title", block: "Link 5", rows: 1, format: 'raw' %}
+                          Bulletin Vydra
+                        {% endeditable_text %}
+                      </a>
+                    </h4>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

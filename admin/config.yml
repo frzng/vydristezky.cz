@@ -1,7 +1,258 @@
+---
 backend:
   name: git-gateway
   branch: master
-
 media_folder: uploads
-
-collections: []
+collections:
+- name: showcases
+  label: Showcases
+  label_singular: Showcase
+  description: Big photos that are displayed on the homepage
+  folder: _showcases
+  create: true
+  fields:
+  - name: image
+    label: Image
+    widget: image
+  - name: position
+    label: Position
+    widget: number
+    valueType: int
+    locomotive_name: _position
+  meta:
+  - name: date
+    label: Created at
+    widget: date
+    format: YYYY-MM-DD HH:mm:ss ZZ
+- name: posts
+  label: News
+  description: News on your project or website
+  folder: _posts
+  locomotive_name: news
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  create: true
+  fields:
+  - name: title
+    label: Title
+    widget: string
+  - name: image
+    label: Image
+    widget: image
+  - name: body
+    label: Content
+    widget: markdown
+    locomotive_name: content
+  - name: published
+    label: Published
+    widget: boolean
+    default: true
+  - name: date
+    label: Published at
+    widget: date
+    format: YYYY-MM-DD
+    locomotive_name: published_at
+- name: user_questions
+  label: User questions
+  label_singular: User question
+  description: Questions that are sent from users from counselling section.
+  folder: _user_questions
+  create: true
+  fields:
+  - name: name
+    label: Name
+    widget: string
+  - name: email
+    label: Email
+    widget: string
+  - name: body
+    label: Message
+    widget: markdown
+    locomotive_name: message
+  - name: position
+    label: Position
+    widget: number
+    valueType: int
+    locomotive_name: _position
+  meta:
+  - name: date
+    label: Created at
+    widget: date
+    format: YYYY-MM-DD HH:mm:ss ZZ
+- name: authors
+  label: Authors
+  label_singular: Author
+  description: Authors of user answers or photographs
+  folder: _authors
+  create: true
+  fields:
+  - name: name
+    label: Name
+    widget: string
+  - name: position
+    label: Position
+    widget: number
+    valueType: int
+    locomotive_name: _position
+  meta:
+  - name: date
+    label: Created at
+    widget: date
+    format: YYYY-MM-DD HH:mm:ss ZZ
+- name: categories
+  label: Categories
+  label_singular: Category
+  description: Categories for user answers categorization
+  folder: _categories
+  create: true
+  fields:
+  - name: name
+    label: Name
+    widget: string
+  - name: user_answers
+    label: User answers
+    widget: list
+    field:
+      name: user_answer
+      label: Title
+      widget: relation
+      collection: user_answers
+      searchFields:
+      - title
+      valueField: slug
+    required: false
+  - name: photos
+    label: Photos
+    widget: list
+    field:
+      name: photo
+      label: Title
+      widget: relation
+      collection: photos
+      searchFields:
+      - title
+      valueField: slug
+    required: false
+  - name: position
+    label: Position
+    widget: number
+    valueType: int
+    locomotive_name: _position
+  meta:
+  - name: date
+    label: Created at
+    widget: date
+    format: YYYY-MM-DD HH:mm:ss ZZ
+- name: galleries
+  label: Galleries
+  label_singular: Gallery
+  description: A description of the content type for the editors
+  folder: _galleries
+  create: true
+  fields:
+  - name: page
+    label: Page
+    widget: string
+  - name: position
+    label: Position
+    widget: number
+    valueType: int
+    locomotive_name: _position
+  meta:
+  - name: date
+    label: Created at
+    widget: date
+    format: YYYY-MM-DD HH:mm:ss ZZ
+- name: photos
+  label: Photos
+  label_singular: Photo
+  description: Photos in photogallery
+  folder: _photos
+  create: true
+  fields:
+  - name: title
+    label: Title
+    widget: string
+  - name: image
+    label: Image
+    widget: image
+  - name: body
+    label: Description
+    widget: markdown
+    required: false
+    locomotive_name: description
+  - name: author
+    label: Author
+    widget: relation
+    collection: authors
+    searchFields:
+    - name
+    valueField: slug
+    required: false
+  - name: categories
+    label: Categories
+    widget: list
+    field:
+      name: category
+      label: Name
+      widget: relation
+      collection: categories
+      searchFields:
+      - name
+      valueField: slug
+    required: false
+  - name: galleries
+    label: Gallery
+    widget: relation
+    collection: galleries
+    searchFields:
+    - page
+    valueField: slug
+    required: false
+  - name: position
+    label: Position
+    widget: number
+    valueType: int
+    locomotive_name: _position
+  meta:
+  - name: date
+    label: Created at
+    widget: date
+    format: YYYY-MM-DD HH:mm:ss ZZ
+- name: user_answers
+  label: User answers
+  label_singular: User answer
+  description: Answers to user questions that are displayed in counselling section
+  folder: _user_answers
+  create: true
+  fields:
+  - name: title
+    label: Title
+    widget: string
+  - name: author
+    label: Author
+    widget: relation
+    collection: authors
+    searchFields:
+    - name
+    valueField: slug
+  - name: date
+    label: Published at
+    widget: date
+    format: YYYY-MM-DD
+    locomotive_name: published_at
+  - name: body
+    label: Content
+    widget: markdown
+    locomotive_name: content
+  - name: categories
+    label: Categories
+    widget: list
+    field:
+      name: category
+      label: Name
+      widget: relation
+      collection: categories
+      searchFields:
+      - name
+      valueField: slug
+    required: false

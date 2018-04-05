@@ -1,0 +1,21 @@
+<div class="item_info m-bottom-1">
+  <dl class="item_info_dl">
+    <dd>
+      <div class="item_createdby">{{ answer.author.name }}</div>
+    </dd>
+    |
+    <dd>
+      <div class="item_category-name">
+        {% for category in answer.categories %}
+          <a href="{% path_to user_answers %}?category={{ category._slug }}">
+            {{ category.name }}
+          </a>&nbsp;
+        {% endfor %}
+      </div>
+    </dd>
+    |
+    <dd>
+      <div class="item_published">{{ answer.published_at | date: '%e. %-m. %Y' }}</div>
+    </dd>
+  </dl>
+</div>

@@ -1,0 +1,19 @@
+<div class="moduletable vision">
+  <h4 class="moduleTitle ">
+    {% link_to news %}
+      {{ news.title | truncate: 60 }}
+    {% endlink_to %}
+  </h4>
+  <div class="mod-article-single mod-article-single__vision">
+    <div class="item__module">
+      <div class="item_img img-intro img-intro__">
+        {% link_to news %}
+          <img src="{{ news.image.url }}" class="home__news-image object-fit-cover" data-object-fit="cover">
+        {% endlink_to %}
+      </div>
+      <div class="item_introtext">
+        {{ news.content | strip_html | truncatewords: 22 }}
+      </div>
+    </div>
+  </div>
+</div>

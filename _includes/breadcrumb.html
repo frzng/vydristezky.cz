@@ -1,0 +1,19 @@
+<div class="breadcrumb m-bottom-3">
+  {% for item in pages %}
+    {% if item.handle == 'home' %}
+      <a href={% path_to home %} class="breadcrumb__item uppercase">
+        {{ site.name | split: '.' | first }}
+      </a>
+      &gt;
+    {% elsif pages.last == item %}
+      <span class="breadcrumb__item">
+        {{ item.title }}
+      </span>
+    {% else %}
+      <a href={% path_to item %} class="breadcrumb__item">
+        {{ item.title }}
+      </a>
+      &gt;
+    {% endif %}
+  {% endfor %}
+</div>

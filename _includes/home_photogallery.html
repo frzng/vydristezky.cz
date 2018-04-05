@@ -1,0 +1,18 @@
+<h3 class="moduleTitle ">
+  {% editable_text "Title", block: "Photogallery", rows: 1 %}Gallery{% endeditable_text %}
+</h3>
+<div class="mod-newsflash-adv mod-newsflash-adv__projects">
+  {% editable_model photos, hint: 'Edit displayed photos in gallery' %}
+    <div class="row-fluid">
+      {% for photo in contents.photos limit: 2 %}
+        {% include 'home_photogallery_item' with photo %}
+      {% endfor %}
+    </div>
+    <div class="row-fluid">
+      {% for photo in contents.photos limit: 2, offset: 2 %}
+        {% include 'home_photogallery_item' with photo %}
+      {% endfor %}
+    </div>
+    <div class="clearfix"></div>
+  {% endeditable_model %}
+</div>

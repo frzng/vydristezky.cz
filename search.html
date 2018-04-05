@@ -1,0 +1,23 @@
+---
+title: Výsledky hledání
+published: false
+listed: false
+position: 0
+layout: contentpage
+---
+{% block content/inner %}
+  <div class="page-blog page-blog__">
+    <div class="page_header">
+      <h3>{% editable_text "title", block: "Search", rows: 1 %}Výsledky hledání{% endeditable_text %}</h3>
+    </div>
+
+    <div class="search-term">
+      Hledaná fráze: <strong class="search-term__query"></strong>
+    </div>
+
+    <div class="search-results">
+      Probíhá vyhledávání...
+    </div>
+
+  </div>
+{% endblock %}

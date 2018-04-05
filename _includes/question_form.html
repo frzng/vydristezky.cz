@@ -1,0 +1,36 @@
+<h3 class="moduleTitle ">
+  {% editable_text "Title", block: "Question form", rows: 1 %}Send us a question{% endeditable_text %}
+</h3>
+<div class="mod-login mod-login__aside">
+  {% model_form 'user_questions', success: '/' %}
+    {% if user_question.errors %}
+      <div class="error">
+        <p>The following errors occured:</p>
+        <ul>
+        {% for error in user_question.errors %}
+          <li>{{error[0] | capitalize}} -  {{error[1]}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    <label for="user-question_name">
+      {% editable_text "Name", block: "Question form", rows: 1 %}Fullname{% endeditable_text %}
+    </label>
+    <input id="user-question_name" type="text" name="content[name]" size="18" value="{{user_question.name}}" />
+
+    <label for="user-question_email">
+      {% editable_text "Email", block: "Question form", rows: 1 %}Email{% endeditable_text %}
+    </label>
+    <input id="user-question_email" type="text" name="content[email]" size="18" value="{{user_question.email}}" />
+
+    <label for="user-question_message">
+      {% editable_text "Message", block: "Question form", rows: 1 %}Message{% endeditable_text %}
+    </label>
+    <textarea id="user-question_message" name="content[message]" class="user-question__message block">{{user_question.message}}</textarea>
+
+    <button type="submit" name="Submit" class="btn btn-primary">
+      {% editable_text "Submit", block: "Question form", rows: 1 %}Odeslat{% endeditable_text %}
+    </button>
+  {% endmodel_form %}
+</div>

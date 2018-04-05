@@ -1,0 +1,33 @@
+---
+title: News
+listed: false
+position: 99
+editable_elements:
+  header/Search: 'Hledat... '
+layout: withrightcolumntemplate
+---
+{% block content/article %}
+  <article>
+    <div class="item_header">
+      <h3 class="item_title">
+        {{ news.title }}
+      </h3>
+    </div>
+    <div class="item_img img-full img-full__left item-image">
+      {{ news.image.url | image_tag }}
+    </div>
+    <div class="item_fulltext">
+      {{ news.content }}
+    </div>
+  </article>
+{% endblock %}
+
+{% block content/column %}
+  {% with_scope published: true %}
+    {% for other_news in contents.news, limit: 5 %}
+      {% if news._id != other_news._id %}
+        {% include 'home_news_bigitem' with news: other_news %}
+      {% endif %}
+    {% endfor %}
+  {% endwith_scope %}
+{% endblock %}

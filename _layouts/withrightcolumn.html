@@ -1,0 +1,48 @@
+---
+title: Content page with right column layout
+listed: true
+layout: |-
+  withrightcolumntemplate' %}
+
+
+  {% block content/article %}
+    <article>
+      <div class="item_header">
+        <h3 class="item_title">{% editable_text "Title", block: "Page", rows: 1 %}Headline{% endeditable_text %}</h3>
+      </div>
+
+      {% capture title_image_enabled %}
+        {% editable_control "Title image", options: 'true=Yes,false=No', hint: "Tell if the title image is displayed or not", priority: 1, block: 'Page' %}
+          true
+        {% endeditable_control %}
+      {% endcapture %}
+      {% assign title_image_enabled = title_image_enabled | strip %}
+
+      {% if title_image_enabled == 'true' %}
+        <div class="item_img img-full img-full__none item-image">
+          <img
+            src=
+              {% editable_file 'image', hint: "Upload an image (perfect size: 610px by 385px)", block: 'Page
+---
+http://placehold.it/610x385
+            {% endeditable_file %}/>
+      </div>
+    {% endif %}
+    <div class="item_fulltext">
+      {% editable_text "Content", block: "Page" %}
+        <p>Content of the page</p>
+      {% endeditable_text %}
+    </div>
+
+    {% include related_pages with pages: page.children %}
+  </article>
+{% endblock %}
+
+{% block content/column %}
+  <h3>{% editable_text "Title", block: "Right column", rows: 1 %}Another pages{% endeditable_text %}</h3>
+  <div class="mod-custom mod-custom__links">
+    {% editable_text "Links", block: "Right column" %}{% endeditable_text %}
+  </div>
+
+  {% include siblings_pages with pages: page.parent.children %}
+{% endblock %}

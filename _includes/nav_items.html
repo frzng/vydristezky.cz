@@ -1,0 +1,28 @@
+{% for item in pages %}
+  {% if item.listed? and item.published? %}
+
+    <li class="{% if page.fullpath == item.fullpath %}current active{% endif %}">
+      <a href="{% path_to item %}">{{ item.title }}</a>
+
+      {% assign render_children = false %}
+
+      {% for child in item.children %}
+        {% if child.listed? and child.published? %}
+          {% assign render_children = true %}
+        {% endif %}
+      {% endfor %}
+
+      {% if render_children %}
+        <ul>
+          {% for subitem in item.children %}
+            {% if subitem.listed? and subitem.published? %}
+              <li>
+                <a href="{% path_to subitem %}">{{ subitem.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endif %}
+{% endfor  %}
