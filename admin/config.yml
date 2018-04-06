@@ -134,7 +134,7 @@ collections:
     valueField: page
     required: false
   - name: position
-    label: Position
+    label: Position on global photo gallery page (not the gallery above)
     widget: number
     valueType: int
   meta:
