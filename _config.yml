@@ -22,6 +22,23 @@ webmaster_verifications:
 lang: cs-CZ
 google_analytics: UA-57533252-5
 
+# Collection settings
+collections:
+  galleries: {}
+  posts:
+    output: true
+    permalink: "/news/:title"
+  showcases: {}
+  filterable_tags: {}
+  photos: {}
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
 # Build settings
 markdown: kramdown
 plugins:
