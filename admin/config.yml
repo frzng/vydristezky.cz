@@ -80,7 +80,7 @@ collections:
     Categorization and filtering of photos. Arbitrary categories can
     be added to photos (i.e., photo categories don’t have to defined
     here). But if you want a category to appear as a filter option on
-    the global photo gallery page, you have to define here with
+    the global photo gallery page, you have to define it here with
     exactly same name as you use in photos.
   folder: _filterable_tags
   create: true
