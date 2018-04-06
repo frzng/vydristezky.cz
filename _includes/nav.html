@@ -4,10 +4,11 @@
       <div id="top" class="row-fluid">
         <div class="moduletable navigation  span12">
           <ul class="sf-menu">
-            <li class="{% if page.handle == 'home' %}current active{% endif %}">
-              <a href="{% path_to home %}">Home</a>
-            </li>
-            {% include 'nav_items' with pages: site.pages.first.children %}
+            {% assign listable_pages = site.pages |
+                 concat: site.md_pages |
+                 where: "listed", true |
+                 sort: "position" %}
+            {% include nav_items.html pages=listable_pages %}
           </ul>
         </div>
       </div>
