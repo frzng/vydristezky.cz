@@ -1,17 +1,21 @@
 ---
-title: S páťáky opět na stezce
-image: "/uploads/DSCN1353_610.JPG"
-date: -4712-01-01
+title: Hostem ve Starém městě pod Landštějnem
+image: "/uploads/13413697_1037150716371952_3581987812124907915_n.jpg"
+published: true
+date: 2016-06-14
 ---
-Už tradiční akcí se stal výlet s žáky pátých tříd základní školy Boženy
-Němcové v Dačicích po Vydří stezce na Dyji při oslavě Dne Země.
-Předpověď počasí nevěstila nic dobrého, ale statečně jsme se vydali na
-devítikilometrovou cestu. Déšť a sníh si to, pro nás naštěstí, vybrali
-jinde a tak výlet proběhl bez problémů. Z živých tvorů děti tentokrát
-viděly ryby, včetně malých embryí štik. Pomocí gps navigace úspěšně
-našly přístroje pro monitoring savců. Povídali jsme si o vydře a dalších
-tvorech, kteří u řeky žijí. Vydra tudy prošla noc před námi, což jsme
-zjistili podle čerstvého trusu, který na břehu řeky zanechala. 
+K mezinárodnímu dni vyder jsme navštívili Základní školu ve Starém městě
+pod Landštejnem. Děti hned začaly klást otázky a po prvním náporu si
+poslechly přednášku o vydře říční - jak vypadá, kde žije, co jí, kolik
+mívá mláďat a kde všude chodí. Protože přímo ve v okolí města probíhalo
+před 14 lety telemetrické sledování vyder, děti se dozvěděli přímo ze
+svého okolí, kudy vydry chodí okolo jejich školy či kde mají své nory.
+Po přednášce a další sérii otázek jsme se společně vydali na procházku
+kolem vody. Po cestě se děti seznámili s některými přístroji k
+monitoringu savců (gps přístroj, nášlapný raft, fotopast), prohlédly si
+slepýše, který se vyhříval na cestě a přičichly k čerstvému trusu od
+vydry. Děli byly úžasné, zvědavé, uvařily čaj a připravili si i malé
+dárky: obrázek a sladkou kytku. 
 
 
 

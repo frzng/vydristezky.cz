@@ -1,7 +1,8 @@
 ---
 title: S páťáky na stezce
 image: "/uploads/IMG_7202.JPG"
-date: -4712-01-01
+published: true
+date: 2015-05-25
 ---
 
 

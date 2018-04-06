@@ -1,7 +1,8 @@
 ---
 title: O zvířatech v mateřské školce
 image: "/uploads/Sn_mek_055.jpg"
-date: -4712-01-01
+published: true
+date: 2015-05-31
 ---
 
 

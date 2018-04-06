@@ -1,7 +1,8 @@
 ---
 title: Nové obrázky a povídání od dětí
 image: "/uploads/IMG_1635.JPG"
-date: -4712-01-01
+published: true
+date: 2016-07-18
 ---
 
 
