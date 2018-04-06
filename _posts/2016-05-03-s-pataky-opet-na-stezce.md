@@ -12,26 +12,10 @@ jinde a tak výlet proběhl bez problémů. Z živých tvorů děti tentokrát
 viděly ryby, včetně malých embryí štik. Pomocí gps navigace úspěšně
 našly přístroje pro monitoring savců. Povídali jsme si o vydře a dalších
 tvorech, kteří u řeky žijí. Vydra tudy prošla noc před námi, což jsme
-zjistili podle čerstvého trusu, který na břehu řeky zanechala. 
+zjistili podle čerstvého trusu, který na břehu řeky zanechala.
 
-
-
-<div>
-<div class="wrapper-inner">
-<div>
-<div class="row-container">
-<div class="container-fluid">
-<div class="content-inner row-fluid">
-<div class="span9">
-<div class="page-item page-item__">
-<div>
-<div class="item_fulltext">
-<div>
-
-</div>
-<div markdown="1">
-Aktivita je součástí projektu [Realizace vybraných opatření Programu
-péče pro vydru říční v ČR][1]{: rel="nofollow"}.
+Aktivita je součástí projektu
+[Realizace vybraných opatření Programu péče pro vydru říční v ČR][1].
 
 ![](/uploads/loga_mgs_stojato_mm.jpg){: .wysiwyg-float-left}*Podpořeno
 grantem z Islandu, Lichtenštejnska a Norska.*
@@ -40,23 +24,6 @@ grantem z Islandu, Lichtenštejnska a Norska.*
 Ministerstva životního prostředí. Za její obsah je výhradně odpovědná
 ALKA Wildlife,o.p.s. a nelze ji v žádném případě považovat za názor
 donora nebo Ministerstva životního prostředí.*
-{: .wysiwyg-text-align-justify}
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-  
 
 
-
-
-[1]: http://www.vydryonline.cz/o-nas/projekt "Link: http://www.alkawildlife.eu/page.php?mx=55_projekty/aktualni&amp;ax=156_realizace-vybranych-opatreni-programu-pece-pro-vydru-ricni-v-cr&amp;lx=cz&amp;ft=&amp;us="
+[1]: http://www.vydryonline.cz/o-nas/projekt

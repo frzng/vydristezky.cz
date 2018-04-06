@@ -15,26 +15,10 @@ kolem vody. Po cestě se děti seznámili s některými přístroji k
 monitoringu savců (gps přístroj, nášlapný raft, fotopast), prohlédly si
 slepýše, který se vyhříval na cestě a přičichly k čerstvému trusu od
 vydry. Děli byly úžasné, zvědavé, uvařily čaj a připravili si i malé
-dárky: obrázek a sladkou kytku. 
+dárky: obrázek a sladkou kytku.
 
-
-
-<div>
-<div class="wrapper-inner">
-<div>
-<div class="row-container">
-<div class="container-fluid">
-<div class="content-inner row-fluid">
-<div class="span9">
-<div class="page-item page-item__">
-<div>
-<div class="item_fulltext">
-<div>
-
-</div>
-<div markdown="1">
-Aktivita je součástí projektu [Realizace vybraných opatření Programu
-péče pro vydru říční v ČR][1]{: rel="nofollow"}.
+Aktivita je součástí projektu
+[Realizace vybraných opatření Programu péče pro vydru říční v ČR][1].
 
 ![](/uploads/loga_mgs_stojato_mm.jpg){: .wysiwyg-float-left}*Podpořeno
 grantem z Islandu, Lichtenštejnska a Norska.*
@@ -43,23 +27,6 @@ grantem z Islandu, Lichtenštejnska a Norska.*
 Ministerstva životního prostředí. Za její obsah je výhradně odpovědná
 ALKA Wildlife,o.p.s. a nelze ji v žádném případě považovat za názor
 donora nebo Ministerstva životního prostředí.*
-{: .wysiwyg-text-align-justify}
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-  
 
 
-
-
-[1]: http://www.vydryonline.cz/o-nas/projekt "Link: http://www.alkawildlife.eu/page.php?mx=55_projekty/aktualni&amp;ax=156_realizace-vybranych-opatreni-programu-pece-pro-vydru-ricni-v-cr&amp;lx=cz&amp;ft=&amp;us="
+[1]: http://www.vydryonline.cz/o-nas/projekt
