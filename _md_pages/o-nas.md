@@ -1,0 +1,31 @@
+---
+title: O nás
+permalink: /o-nas
+published: true
+listed: true
+position: 7
+layout: withoutrightcolumn
+---
+texty: Kateřina Poledníková a Lukáš Poledník 
+
+autoři fotografií: Jiří Bohdal, Kateřina Poledníková, Sandra Tomljenovic
+
+Provozovatel stránek: ALKA Wildlife, o.p.s.
+
+ALKA Wildlife, o.p.s. je nezisková nestátní organizace zabývající se
+výzkumem a ochranou volně žijících živočichů.
+
+web společnosti: [www.alkawildlife.eu][1]{: rel="nofollow"}  
+ facebook společnosti: [https://www.facebook.com/AlkaWildlife][2]{:
+rel="nofollow"}
+
+Odborný tématický web o vydře říční: [www.vydryonline.cz][3]{:
+rel="nofollow"}
+
+
+
+
+
+[1]: http://www.alkawildlife.eu "Link: http://www.alkawildlife.eu"
+[2]: https://www.facebook.com/AlkaWildlife "Link: https://www.facebook.com/AlkaWildlife"
+[3]: http://www.vydryonline.cz
