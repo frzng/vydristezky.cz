@@ -24,6 +24,8 @@ google_analytics: UA-57533252-5
 
 # Collection settings
 collections:
+  md_pages:
+    output: true
   galleries: {}
   posts:
     output: true
