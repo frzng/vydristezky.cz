@@ -5,6 +5,77 @@ backend:
 media_folder: uploads
 
 collections:
+- name: md_pages
+  label: Pages
+  label_singular: Page
+  description: >-
+    Simple pages with single- or two-columns layout. The pages form a
+    hierarchy with created from their addresses. The top-most page in
+    the hierarchy is home page with address “/”. Its children are News
+    (“/news”), Gallery (“/gallery”) and Search (“/search”). Previously
+    named pages are special – do not create page with their addresses
+    or their children yourself. Anythis else is up to you… You can for
+    example create About Us page (“/about”) and then its child page
+    Our Team (“/about/team”). This hierarchy is used to generate
+    navigation menu, sibling pages (in the right column) and child
+    pages (under page content).
+  folder: _md_pages
+  create: true
+  fields:
+  - name: title
+    label: Title
+    widget: string
+  - name: permalink
+    label: Address (creates hierarchy—e.g., “/about/team” is a child of “/about” which is a child of “/”)
+    widget: string
+  - name: image
+    label: Image (610 × 358 px)
+    widget: image
+    required: false
+  - name: long_title
+    label: Long title (heading right above content; defaults to plain title)
+    widget: string
+    required: false
+  - name: subtitle
+    label: Subtitle (optional small heading under long title)
+    widget: string
+    required: false
+  - name: body
+    label: Body
+    widget: markdown
+  - name: published
+    label: Published (publicly available under address)
+    widget: boolean
+  - name: listed
+    label: Show in the navigation menu
+    widget: boolean
+  - name: position
+    label: Position among siblings in listings
+    widget: number
+    valueType: int
+  - name: layout
+    label: Layout
+    widget: string
+    #TODO
+    # widget: relation
+    # collection: layouts
+    # valueField: ref
+    # searchFields:
+    # - title
+  - name: aside_title
+    label: Heading for aside
+    widget: string
+    required: false
+  - name: aside_links
+    label: Content for aside above sibling pages listing
+    widget: markdown
+    required: false
+  meta:
+  - name: date
+    label: Created at
+    widget: date
+    format: YYYY-MM-DD HH:mm:ss ZZ
+
 - name: galleries
   label: Galleries
   label_singular: Gallery
