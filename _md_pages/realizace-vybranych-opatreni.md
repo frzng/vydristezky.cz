@@ -22,10 +22,7 @@ byly vytvořeny tyto webové stránky, pexeso pro děti a proběhlo či ještě
 proběhne několik akcí pro děti na Dačicku, kde se první vydří stezka
 nachází.
 
-Více o projektu [zde][1]{: rel="nofollow" target="_blank"}.
+[Více o projektu][1]
 
 
-
-
-
-[1]: http://www.vydryonline.cz/o-nas/projekt "projekt"
+[1]: http://www.vydryonline.cz/o-nas/projekt

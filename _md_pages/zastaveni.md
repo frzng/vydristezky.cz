@@ -10,21 +10,17 @@ layout: withrightcolumn
 Stezka je vhodná pro pěší, jde o nenáročnou trasu, většinou se jde po
 nezpevněné cestě, třikrát krátce po silnici. Jeden kratší úsek vede ve
 svahu lesní pěšinou – v případě jízdy na kole či putování s kočárkem jde
-o náročný, i když krátký úsek, který se dá překonat. 
+o náročný, i když krátký úsek, který se dá překonat.
 
 Délka trasy: 10 km
 
 Začátek: obec Dačice (most přes řeku Dyje)  
- Konec: obec Staré Hobzí (náves)  
- Počet informačních tabulí: 9
-
-   
-
+Konec: obec Staré Hobzí (náves)  
+Počet informačních tabulí: 9
 
 ### Jednotlivá zastavení
 
 #### Km 0: Tabule č. 1. úvodní tabule v obci Dačice  
- 
 
 ![](/uploads/IMG_0197_610.JPG)
 
@@ -48,16 +44,12 @@ do spojitosti s rytířem Janem Babkou, mlýn byl dlouho zvaný Babkův.
 Dnešní název pochází od posledních majitelů. K mlýnu byla po dlouhou
 dobu přidružena i pekárna. V roce 1948 byl znárodněn a později zrušen.
 
- 
-
 #### Km 1,5: Tabule č. 2. Řeka Dyje a ryby
 
 Každá řeka se od pramene po své ústí do moře vyvíjí. Pod Dačicemi má
 Moravská Dyje charakter tzv. „parmového pásma“. Rybí společenstvo
 Moravské Dyje je v úseku Vydří stezky velmi pestré, zaznamenáno zde bylo
 24 druhů ryb.
-
- 
 
 #### Km 1,7: Tabule č. 3. Natura 2000
 
@@ -71,8 +63,6 @@ omezené svým výskytem jen na určitou oblast. Přírodní památka Moravská
 Dyje je součástí této soustavy a vydra říční je jedním z předmětů
 ochrany.
 
- 
-
 #### Km 2,2: Frelův mlýn
 
 ![](/uploads/Freluv_610.JPG)
@@ -81,8 +71,6 @@ První záznam pochází ze 17. století, kdy zde působila rodina Froelů.
 Tento mlýn je také znám jako Švábův, Šantrůčkův, Peckův či Kubešův podle
 dalších mlynářů. Manželé Peckovi v roce 1931 oficiálně ukončili činnost
 mlýna, poté se jako pohostinství stal cílem dačických při vycházkách.
-
- 
 
 #### Km 2,2: Tabule č. 4. Vydra
 
@@ -95,8 +83,6 @@ Vydry nejsou vázány na nějaký specifický typ vodního prostředí. Obývaj�
 jak tekoucí, tak i stojaté vody. Na Dačicku vydry žijí jak na rybnících,
 menších tůních, požárních nádržích, tak i na všech potocích a na
 Moravské Dyji.
-
-####  
 
 #### Km 3,0: obec Hradišťko
 
@@ -122,8 +108,6 @@ vodního savce či ptáka. Vydra velmi dobře plave a potápí se. Potravu
 loví jak ve volné vodě, tak ji hledá na dně mezi kameny, i v dutinách
 členitých břehů. Kořist hledá zrakem (očima) i hmatem (vousy).
 
- 
-
 #### Km 5,7: suché skalnaté stráně
 
 Vznikají na strmých skalnatých výslunných svazích údolí. Dříve byly díky
@@ -141,8 +125,6 @@ zmíněn v roce 1369. Mlýn sloužil jako obilný mlýn a pila. V roce 1932
 zde byla instalována turbína. Dle záznamů vodní pila pracovala do roku
 1938.
 
- 
-
 #### Km 7,1: Volfův mlýn
 
 ![](/uploads/IMG_8593_610.JPG)
@@ -150,8 +132,6 @@ zde byla instalována turbína. Dle záznamů vodní pila pracovala do roku
 Aumühle či také Lužní mlýn je poprvé uveden v písemnostech v roce 1627.
 Dnešní název má po posledních majitelích, kteří již však mlýn
 nevyužívali a pouze zde hospodařili jako zemědělci.
-
- 
 
 #### Km 7,5: tabule č. 6: Přežijí vydry?
 
@@ -167,8 +147,6 @@ vydra žere ryby a tím způsobuje škody na rybích obsádkách. Někdo řeší
 ztrátu ryb způsobenou vydrou po svém – střelbou, železy nebo trávením. A
 tak je budoucnost vyder u nás i přes její legislativní ochranu a řadu
 ochranářských opatření nejistá.
-
- 
 
 #### Km 8,1: slepé rameno řeky
 
@@ -191,8 +169,6 @@ pro premonstrátský klášter v Louce u Znojma. V roce 1901 vyhořel, poté
 byly budovy postaveny znovu. Ještě v roce 1989 zde byla instalována
 turbína, dnes již však v provozu není.
 
- 
-
 #### Km 9,0: tabule č. 7: vodní mlýny
 
 ![](/uploads/IMG_6856_610.JPG)
@@ -211,8 +187,6 @@ jako restaurační zařízení, jiné chátrají. Vodní kola a mlecí konstrukc
 či modernější turbíny si neprohlédnete již žádné. Náhony jsou někde
 zatopeny vodou, některé jsou vyschlé. Zachovány byly jen jezy.
 
- 
-
 #### Km 9,4: tabule č. 8: život u vody
 
 ![](/uploads/P1190450_610.JPG)
@@ -227,7 +201,7 @@ konipas horský či ledňáček říční, ale při troše štěstí uvidíte i
 velikány v ptačí říši, například volavku popelavou a našeho největšího
 dravce orla mořského.
 
- U této tabule se turistická značka odděluje od naučné stezky - značka
+U této tabule se turistická značka odděluje od naučné stezky - značka
 pokračuje doprava přes most směr Slavonice, konec stezky je ve Starém
 Hobzí tedy po silnici doleva do kopce.
 

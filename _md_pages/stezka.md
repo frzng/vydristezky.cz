@@ -13,8 +13,6 @@ se zde evropsky významná lokalita a přírodní památka. V údolí žije řad
 vzácných živočichů, především těch, jež jsou vázány na vodní prostředí,
 včetně vydry říční.
 
-
-
 Z velké části vede trasa podél řeky, několikrát se pro neschůdnost břehů
 stáčí od řeky dál. Údolí řeky je tiché a klidné. Pětkrát narazíte na
 staré vodní mlýny, několikrát projdete chatovými osadami.

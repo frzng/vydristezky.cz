@@ -7,12 +7,12 @@ listed: true
 position: 4
 layout: withrightcolumn
 ---
-<span class="wysiwyg-font-size-medium">Protože žiju v noci, asi se spolu
-nesetkáme. Ale jako každý za sebou zanechávám stopy toho, že jsem někde
-byla. A podle nich poznáš, kudy jsem šla, nebo i další má tajemství,
-třeba co jsem jedla, kde jsem spala. </span>
+Protože žiju v noci, asi se spolu nesetkáme. Ale jako každý za sebou
+zanechávám stopy toho, že jsem někde byla. A podle nich poznáš, kudy
+jsem šla, nebo i další má tajemství, třeba co jsem jedla, kde jsem
+spala.
 
-####  <span class="wysiwyg-font-size-medium"> </span><span class="wysiwyg-font-size-medium">Stopa vydry</span> 
+#### Stopa vydry
 
 ![](/uploads/MG_7591_610.jpg)
 
@@ -24,14 +24,14 @@ kde jsem vylezla z vody je vidět mokrý sníh či led smáčený od mého
 mokrého kožichu. Po ledu či břehu kousek popoběhnu a pak zase sklouznu
 do vody a pokračuji dál.
 
-####  * *Tunely ve sněhu
+#### Tunely ve sněhu
 
 ![](/uploads/IMG_0327_610.JPG)
 
 Protože mám krátké nohy, v hlubokém sněhu za mnou zůstává hluboká rýha
 od celého těla.
 
-####  * *trus
+#### trus
 
 ![](/uploads/IMG_6407_610.JPG)
 
@@ -43,7 +43,7 @@ válcovitý a se stočenou špičkou jako u řady jiných šelem, ale je to v
 podstatě hromádka kostí slepená sekretem (čím starší trus, tím méně
 sekretu) a „voní“ po rybách.
 
-####  hromádka
+#### hromádka
 
 ![](/uploads/IMG_6420_610.JPG)
 

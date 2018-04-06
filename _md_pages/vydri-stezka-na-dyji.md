@@ -11,8 +11,8 @@ layout: withrightcolumn
 2012 - 2013
 
 **Finanční zdroje:**   
-ERDF a státní fond ([program OPŽP][1]{: rel="nofollow"
-target="_blank"}), vlastní zdroje, [Ekoplast Telč][2]{: rel="nofollow"}
+ERDF a státní fond ([program OPŽP][1]), vlastní zdroje,
+[Ekoplast Telč][2]
 
 ![](/uploads/Banner_OPZP_ERDF_CMYK.jpg)
 
@@ -24,8 +24,5 @@ knihovně v Dačicích proběhla v letech 2012 a 2013 doprovodná série
 přednášek.
 
 
-
-
-
-[1]: http://www.opzp.cz "Link: http://www.opzp.cz"
-[2]: http://www.ekoplast.cz "Link: http://www.ekoplast.cz"
+[1]: http://www.opzp.cz
+[2]: http://www.ekoplast.cz

@@ -13,6 +13,6 @@ o sobě a o řece povím.
 Když mi budeš chtít napsat, mám svůj email: loira@vydristezky.cz
 
 Dopis mi taky můžeš poslat poštou, na adresu:  
- ALKA Wildlife, o.p.s.,Lidéřovice 62, 38001 Dačice
+ALKA Wildlife, o.p.s.,Lidéřovice 62, 38001 Dačice
 
 Když uvedeš svou adresu, pošlu Ti taky něco na oplátku.
