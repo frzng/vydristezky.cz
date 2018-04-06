@@ -73,10 +73,15 @@ collections:
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
 
-- name: tags
-  label: Tags
-  label_singular: Tag
-  description: Tags for categorization and filtering of photos
+- name: filterable_tags
+  label: Categories
+  label_singular: Category
+  description: >-
+    Categorization and filtering of photos. Arbitrary categories can
+    be added to photos (i.e., photo categories don’t have to defined
+    here). But if you want a category to appear as a filter option on
+    the global photo gallery page, you have to define here with
+    exactly same name as you use in photos.
   folder: _filterable_tags
   create: true
   fields:
@@ -117,7 +122,7 @@ collections:
     widget: string
     required: false
   - name: tags
-    label: Tags
+    label: Categories
     widget: list
     required: false
   - name: gallery
