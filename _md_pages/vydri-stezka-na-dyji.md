@@ -5,7 +5,7 @@ long_title: Vydří stezka na Dyji (CZ.1.02/6.2.00/11.11604)
 published: true
 listed: true
 position: 1
-layout: withrightcolumn
+layout: two_columns_page
 ---
 **Trvání projektu:**   
 2012 - 2013

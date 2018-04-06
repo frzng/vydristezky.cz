@@ -5,7 +5,7 @@ image: "/uploads/IMG_9085_610.JPG"
 published: true
 listed: true
 position: 0
-layout: withrightcolumn
+layout: two_columns_page
 ---
 Řeka není jen voda, která se line korytem údolím dolů. Voda přetváří
 krajinu, přenáší materiál, vytváří prostředí pro život ve vodě i okolo

@@ -4,7 +4,7 @@ permalink: /o-nas
 published: true
 listed: true
 position: 7
-layout: withoutrightcolumn
+layout: single_column_page
 ---
 texty: Kateřina Poledníková a Lukáš Poledník
 

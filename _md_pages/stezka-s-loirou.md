@@ -5,7 +5,7 @@ image: "/uploads/Loira_04_610.jpg"
 published: true
 listed: true
 position: 1
-layout: withoutrightcolumn
+layout: single_column_page
 ---
 Jmenuji se Loira, půjdu s Vámi na virtuální výlet údolím Dyje a něco Vám
 o sobě a o řece povím.

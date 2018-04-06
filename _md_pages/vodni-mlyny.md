@@ -6,7 +6,7 @@ long_title: Vodní mlýny 
 published: true
 listed: true
 position: 3
-layout: withrightcolumn
+layout: two_columns_page
 ---
 Dříve bylo kolem řeky živo. K řece se chodil napít dobytek, v řece se
 pralo a na řadě míst stály mlýny, ve kterých se stále něco mlelo,

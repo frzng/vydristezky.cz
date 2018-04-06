@@ -4,7 +4,7 @@ permalink: /o-nas/nabidka
 published: true
 listed: true
 position: 2
-layout: withrightcolumn
+layout: two_columns_page
 ---
 *Nabízíme možnost procházky stezkou s průvodcem.*
 

@@ -6,6 +6,6 @@ long_title: Vydra říční
 published: true
 listed: true
 position: 6
-layout: withoutrightcolumn
+layout: single_column_page
 ---
 V rámci této sekce bychom Vám rádi představili vydru říční.

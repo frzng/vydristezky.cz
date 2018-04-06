@@ -5,7 +5,7 @@ long_title: Co žije v řece a nechutná mi
 published: true
 listed: true
 position: 2
-layout: withrightcolumn
+layout: two_columns_page
 ---
 U řeky samozřejmě žije také plno dalších tvorů, kteří mi teda moc
 nechutnají. Ale zajímaví taky jsou.

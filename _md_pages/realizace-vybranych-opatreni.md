@@ -5,7 +5,7 @@ long_title: Realizace vybraných opatření pro vydru říční v České republ
 published: true
 listed: true
 position: 2
-layout: withrightcolumn
+layout: two_columns_page
 ---
 **Trvání projektu:**   
 2015-2016

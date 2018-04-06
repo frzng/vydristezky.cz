@@ -4,7 +4,7 @@ permalink: /vydra/videogalerie
 published: true
 listed: true
 position: 0
-layout: withoutrightcolumn
+layout: single_column_page
 ---
 Ve videogalerii si můžete prohlédnout videa vydry říční pořízené v rámci
 výzkumných projektů ve volné přírodě pomocí tzv. fotopastí. Fotopasti

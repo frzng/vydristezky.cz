@@ -5,7 +5,7 @@ long_title: Mapy a trasy
 published: true
 listed: true
 position: 2
-layout: withrightcolumn
+layout: two_columns_page
 ---
 Ke stažení soubory map či jen trasy v různých formátech - pro tisk či
 načtení do chytrého telefonu, gps navigace atd.

@@ -55,13 +55,11 @@ collections:
     valueType: int
   - name: layout
     label: Layout
-    widget: string
-    #TODO
-    # widget: relation
-    # collection: layouts
-    # valueField: ref
-    # searchFields:
-    # - title
+    widget: relation
+    collection: layouts
+    valueField: ref
+    searchFields:
+    - title
   - name: aside_title
     label: Heading for aside
     widget: string
@@ -237,3 +235,32 @@ collections:
         - name: search
           label: Search field placeholder
           widget: string
+
+- name: layouts
+  label: "\U0001F6AB"
+  description: >-
+    Layouts to be references from pages. Do not delete nor edit in any
+    way.
+  files:
+  - name: single_column_page
+    label: Single-column page
+    file: _layouts/single_column_page.html
+    fields: []
+    meta:
+    - name: title
+      label: Title
+      widget: string
+    - name: ref
+      label: Reference
+      widget: string
+  - name: two_columns_page
+    label: Two-columns page
+    file: _layouts/two_columns_page.html
+    fields: []
+    meta:
+    - name: title
+      label: Title
+      widget: string
+    - name: ref
+      label: Reference
+      widget: string

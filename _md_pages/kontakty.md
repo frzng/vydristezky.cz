@@ -4,7 +4,7 @@ permalink: /o-nas/kontakty
 published: true
 listed: true
 position: 0
-layout: withrightcolumn
+layout: two_columns_page
 ---
 email: [Loira@vydristezky.cz](mailto:Loira@vydristezky.cz "Link:
 mailto:Loira@vydristezky.cz")

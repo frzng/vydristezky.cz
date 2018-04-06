@@ -5,7 +5,7 @@ long_title: Jak mě najdeš?
 published: true
 listed: true
 position: 4
-layout: withrightcolumn
+layout: two_columns_page
 ---
 Protože žiju v noci, asi se spolu nesetkáme. Ale jako každý za sebou
 zanechávám stopy toho, že jsem někde byla. A podle nich poznáš, kudy

@@ -4,7 +4,7 @@ permalink: /projekty/koncept-vydrich-stezek
 published: true
 listed: true
 position: 0
-layout: withrightcolumn
+layout: two_columns_page
 ---
 Opomíjená nebo nenáviděná – tak je to s vydrou říční u nás. Přitom jde o
 královnu našich vod, nádherné hravé a inspirující zvíře. Tam kde chybí,

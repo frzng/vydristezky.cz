@@ -5,7 +5,7 @@ long_title: Průvodce
 published: true
 listed: true
 position: 0
-layout: withrightcolumn
+layout: two_columns_page
 ---
 Stezka je vhodná pro pěší, jde o nenáročnou trasu, většinou se jde po
 nezpevněné cestě, třikrát krátce po silnici. Jeden kratší úsek vede ve

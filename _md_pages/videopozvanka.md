@@ -4,7 +4,7 @@ permalink: /stezka/videopozvanka
 published: true
 listed: true
 position: 3
-layout: withrightcolumn
+layout: two_columns_page
 ---
 #### Vydří stezka na Moravské Dyji
 
