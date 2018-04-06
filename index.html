@@ -49,30 +49,28 @@ editable_elements:
 
 
   header/Search: 'Hledat... '
-layout: |-
-  default' %}
-
-  {% block content %}
-    {% include 'home_showcase' %}
-    {% include 'home_news' %}
-    {% include 'home_links' %}
-
-    <div id="mainbottom-row">
-      <div class="row-container">
-        <div class="container-fluid">
-          <div class="row-fluid">
-            <div class="moduletable efforts  span3">
-              {% editable_text "Content", block: "Mision" %}
-                <h3>Mission</h3>
-                <p>Lorem ipsum dolor sit amet csectur adipsing elit VivamusAsit amet gravida quis viverra sed nisl. Vetiblum rhoncus nisi in lectus vestibulum.</p>
-                <p>Proin mattis metus at placerat malesuada Quam elit consequat tellus at scelerisque elit libero a ligula. Suspendisse dui felis. </p>
-              {% endeditable_text %}
-            </div>
-
-            <div class="moduletable projects  span3">
-              {% include 'home_photogallery
+layout: default
 ---
-</div>
+{% block content %}
+  {% include 'home_showcase' %}
+  {% include 'home_news' %}
+  {% include 'home_links' %}
+
+  <div id="mainbottom-row">
+    <div class="row-container">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="moduletable efforts  span3">
+            {% editable_text "Content", block: "Mision" %}
+              <h3>Mission</h3>
+              <p>Lorem ipsum dolor sit amet csectur adipsing elit VivamusAsit amet gravida quis viverra sed nisl. Vetiblum rhoncus nisi in lectus vestibulum.</p>
+              <p>Proin mattis metus at placerat malesuada Quam elit consequat tellus at scelerisque elit libero a ligula. Suspendisse dui felis. </p>
+            {% endeditable_text %}
+          </div>
+
+          <div class="moduletable projects  span3">
+            {% include 'home_photogallery' %}
+          </div>
 
           <div class="moduletable whyus  span3">
             {% editable_text "Content", block: "Appeal" %}

@@ -9,41 +9,39 @@ editable_elements:
   Gallery/Show all: 'všechny fotografie '
   Gallery/Filter by category title: 'Filtr podle kategorií: '
   header/Search: 'Hledat... '
-layout: |-
-  contentpage' %}
-
-  {% block content/inner %}
-    <div class="page-gallery page-gallery__gallery">
-      <div class="page_header">
-        <h3>{% editable_text "Title", block: "Gallery", rows: 1, format: 'raw' %}Gallery{% endeditable_text %}</h3>
-        {% editable_text "Description", block: "Gallery" %}
-          <p>Prostor pro několikařádkový text (bude tam něco o možnostech stahování/používání fotek pro vlastní a komerční účely)</p>
-        {% endeditable_text %}
-      </div>
-      <!-- Filter -->
-      <div id="filters" class="filters">
-        <div class="m-bottom-1">
-          <a href="#" data-filter="*" class="selected">
-            {% editable_text "Show all", block: "Gallery", rows: 1, format: 'raw' %}Show all{% endeditable_text %}
-          </a>
-        </div>
-        <div>
-          <b>{% editable_text "Filter by category title", block: "Gallery", rows: 1, format: 'raw' %}Filter by category:{% endeditable_text %}</b>
-          <ul class="inline-block m-left-0 p-left-0">
-            {% for category in contents.categories %}
-              {% if category.photos.any? %}
-                <li class="inline-block p-left-1">
-                  <a class="" href="#" data-filter=".{{ category._slug }}">{{ category.name }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-      <div class="row-fluid">
-        {% editable_model photos, hint: 'Edit displayed photos in gallery
+layout: contentpage
 ---
-<ul id="isotopeContainer" class="gallery items-row cols-4 isotope">
+{% block content/inner %}
+  <div class="page-gallery page-gallery__gallery">
+    <div class="page_header">
+      <h3>{% editable_text "Title", block: "Gallery", rows: 1, format: 'raw' %}Gallery{% endeditable_text %}</h3>
+      {% editable_text "Description", block: "Gallery" %}
+        <p>Prostor pro několikařádkový text (bude tam něco o možnostech stahování/používání fotek pro vlastní a komerční účely)</p>
+      {% endeditable_text %}
+    </div>
+    <!-- Filter -->
+    <div id="filters" class="filters">
+      <div class="m-bottom-1">
+        <a href="#" data-filter="*" class="selected">
+          {% editable_text "Show all", block: "Gallery", rows: 1, format: 'raw' %}Show all{% endeditable_text %}
+        </a>
+      </div>
+      <div>
+        <b>{% editable_text "Filter by category title", block: "Gallery", rows: 1, format: 'raw' %}Filter by category:{% endeditable_text %}</b>
+        <ul class="inline-block m-left-0 p-left-0">
+          {% for category in contents.categories %}
+            {% if category.photos.any? %}
+              <li class="inline-block p-left-1">
+                <a class="" href="#" data-filter=".{{ category._slug }}">{{ category.name }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="row-fluid">
+      {% editable_model photos, hint: 'Edit displayed photos in gallery' %}
+        <ul id="isotopeContainer" class="gallery items-row cols-4 isotope">
           {% for photo in contents.photos %}
             {% include 'gallery_item' with photo %}
           {% endfor %}
