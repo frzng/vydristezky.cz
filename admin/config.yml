@@ -142,3 +142,27 @@ collections:
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
+
+- label: Site Settings
+  name: settings
+  description: Content of special pages like titles, button labels etc.
+  files:
+    - name: authors
+      label: "\U0001F6AB Authors (edit only on GitHub)"
+      label_singular: Author
+      file: _data/authors.yml
+      fields: []
+
+    - name: header
+      label: Global header
+      file: _data/header.yml
+      fields:
+        - name: logo
+          label: Logo
+          widget: image
+        - name: claim
+          label: Claim
+          widget: string
+        - name: search
+          label: Search field placeholder
+          widget: string
