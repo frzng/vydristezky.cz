@@ -1,42 +1,23 @@
 ---
-title: Page without right column
-listed: true
-layout: |-
-  contentpage' %}
-
-  {% block content/inner %}
-    <article>
-      <div class="page-item page-item__">
-        <div class="item_header">
-          <h3 class="item_title">{% editable_text "Title", block: "Page", rows: 1 %}Headline{% endeditable_text %}</h3>
-        </div>
-
-        {% capture title_image_enabled %}
-          {% editable_control "Title image", options: 'true=Yes,false=No', hint: "Tell if the title image is displayed or not", priority: 1, block: 'Page' %}
-            true
-          {% endeditable_control %}
-        {% endcapture %}
-        {% assign title_image_enabled = title_image_enabled | strip %}
-
-        {% if title_image_enabled == 'true' %}
-          <div class="item_img img-full img-full__none item-image">
-            <img
-              src=
-                {% editable_file 'image', hint: "Upload an image (perfect size: 610px by 385px)", block: 'Page
+layout: contentpage
 ---
-http://placehold.it/610x385
-              {% endeditable_file %}/>
-        </div>
-      {% endif %}
-      <div class="item_fulltext">
-        {% editable_text "Content", block: "Page" %}
-          <p>Content of the page</p>
-        {% endeditable_text %}
-      </div>
+<article>
+  <div class="page-item page-item__">
+    <div class="item_header">
+      <h3 class="item_title">{{ page.long_title | default: page.title }}</h3>
     </div>
 
-    {% include related_pages with pages: page.children %}
-  </article>
+    {% if page.image %}
+      <div class="item_img img-full img-full__none item-image">
+        <img src="{{ page.image | relative_url }}">
+      </div>
+    {% endif %}
+    <div class="item_fulltext">
+      {{ content }}
+    </div>
+  </div>
 
-  {% include content_gallery %}
-{% endblock %}
+  {% include related_pages.html %}
+</article>
+
+{% include content_gallery.html %}
