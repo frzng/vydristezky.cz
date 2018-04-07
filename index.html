@@ -1,108 +1,29 @@
 ---
 title: Home
-listed: false
+listed: true
 position: 0
-editable_elements:
-  News/Other news title: 'Další zprávy '
-  News/Show all: 'Všechny novinky '
-  Link 1/Url: "/stezka/videopozvanka "
-  Link 1/Image: "/uploads/videopozvanka_156.jpg"
-  Link 1/Title: 'Videopozvánka '
-  Link 2/Url: "/stezka/zastaveni "
-  Link 2/Image: "/uploads/P1190477_156.JPG"
-  Link 2/Title: 'Průvodce stezkou '
-  Link 3/Url: "/stezka/stezka-s-loirou "
-  Link 3/Image: "/uploads/Loira_07_156.jpg"
-  Link 3/Title: 'Stezka s Loirou '
-  Link 4/Url: "/stezka/mapy-slash-trasy "
-  Link 4/Image: "/uploads/mapa_156.jpg"
-  Link 4/Title: 'Mapy/trasa '
-  Link 5/Url: "/vydra "
-  Link 5/Image: "/uploads/IGP4773.JPG"
-  Link 5/Title: 'Vydra '
-  Mision/Content: |+
-    ### Mise
-
-    Cílem těchto stránek je představit vydru říční - naši největší šelmu vod
-    a přinést základní informace a novinky o tzv. Vydřích stezkách.
-
-    V současnosti je zprovozněna jedna naučná vydří stezka. Nachází se na
-    jihu Českomoravské vrchoviny u města Dačice a vede podél řeky Moravská
-    Dyje.
-
-  Photogallery/Title: 'Fotogalerie '
-  Appeal/Content: |+
-    ### Nabídka
-
-    [Nabízíme možnost procházky stezkou s průvodcem.](o-nas/nabidka){:
-    rel="nofollow" target="_self"}
-
-    [Místo realizace: naučná Vydří stezka na Dyji (Dačice - Staré
-    Hobzí)](o-nas/nabidka){: rel="nofollow" target="_self"}
-
-  Other/Content: |+
-    ### [Videogalerie](vydra/videogalerie){: rel="nofollow"}
-
-    [](vydra/videogalerie){:
-    rel="nofollow"}![](/uploads/videogalerie_156.jpg)
-
-
-
-  header/Search: 'Hledat... '
 layout: default
 ---
-{% block content %}
-  {% include 'home_showcase' %}
-  {% include 'home_news' %}
-  {% include 'home_links' %}
-
-  <div id="mainbottom-row">
-    <div class="row-container">
-      <div class="container-fluid">
-        <div class="row-fluid">
-          <div class="moduletable efforts  span3">
-            {% editable_text "Content", block: "Mision" %}
-              <h3>Mission</h3>
-              <p>Lorem ipsum dolor sit amet csectur adipsing elit VivamusAsit amet gravida quis viverra sed nisl. Vetiblum rhoncus nisi in lectus vestibulum.</p>
-              <p>Proin mattis metus at placerat malesuada Quam elit consequat tellus at scelerisque elit libero a ligula. Suspendisse dui felis. </p>
-            {% endeditable_text %}
-          </div>
-
-          <div class="moduletable projects  span3">
-            {% include 'home_photogallery' %}
-          </div>
-
-          <div class="moduletable whyus  span3">
-            {% editable_text "Content", block: "Appeal" %}
-              <h3 class="moduleTitle ">Appeal</h3>
-              <p>Praesent venenatis bibendum is ta eleend. Maecenas non leo et erat pharetra sceleue in sit amet. </p>
-              <ul>
-                <li><a href="#">Donec sit amet bibendum sem</a></li>
-                <li><a href="#">Vestibulum augue libero lobortis</a></li>
-                <li><a href="#">Aliquam faucibus dui quis libero soda</a></li>
-                <li><a href="#">Nam tellus risus dictum nec</a></li>
-                <li><a href="#">Praesent malesuad libero ac</a></li>
-                <li><a href="#">Augue consectetur nis eu tempor</a></li>
-              </ul>
-            {% endeditable_text %}
-          </div>
-
-          <div class="moduletable whyus  span3">
-            {% editable_text "Content", block: "Other" %}
-              <h3 class="moduleTitle ">Other</h3>
-              <p>Praesent venenatis bibendum is ta eleend. Maecenas non leo et erat pharetra sceleue in sit amet. </p>
-              <ul>
-                <li><a href="#">Donec sit amet bibendum sem</a></li>
-                <li><a href="#">Vestibulum augue libero lobortis</a></li>
-                <li><a href="#">Aliquam faucibus dui quis libero soda</a></li>
-                <li><a href="#">Nam tellus risus dictum nec</a></li>
-                <li><a href="#">Praesent malesuad libero ac</a></li>
-                <li><a href="#">Augue consectetur nis eu tempor</a></li>
-              </ul>
-            {% endeditable_text %}
-          </div>
+{% include home_showcase.html %}
+{% include home_news.html %}
+{% include home_links.html %}
+<div id="mainbottom-row">
+  <div class="row-container">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="moduletable efforts  span3">
+          {{ site.data.home.mission.body | markdownify }}
+        </div>
+        <div class="moduletable projects  span3">
+          {% include home_photogallery.html %}
+        </div>
+        <div class="moduletable whyus  span3">
+          {{ site.data.home.appeal.body | markdownify }}
+        </div>
+        <div class="moduletable whyus  span3">
+          {{ site.data.home.other.body | markdownify }}
         </div>
       </div>
     </div>
   </div>
-{% endblock %}
+</div>
