@@ -186,6 +186,10 @@ collections:
   - name: image
     label: Image
     widget: image
+  - name: gallery_thumbnail
+    label: Optional thumbnail for gallery (250 × 250 px)
+    widget: image
+    required: false
   - name: body
     label: Description
     widget: markdown

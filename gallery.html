@@ -1,83 +1,92 @@
 ---
 title: Fotogalerie
-published: false
-listed: false
-position: 1
-editable_elements:
-  Gallery/Title: 'Fotogalerie '
-  Gallery/Description: "  \n\n"
-  Gallery/Show all: 'všechny fotografie '
-  Gallery/Filter by category title: 'Filtr podle kategorií: '
-  header/Search: 'Hledat... '
 layout: contentpage
 ---
-{% block content/inner %}
-  <div class="page-gallery page-gallery__gallery">
-    <div class="page_header">
-      <h3>{% editable_text "Title", block: "Gallery", rows: 1, format: 'raw' %}Gallery{% endeditable_text %}</h3>
-      {% editable_text "Description", block: "Gallery" %}
-        <p>Prostor pro několikařádkový text (bude tam něco o možnostech stahování/používání fotek pro vlastní a komerční účely)</p>
-      {% endeditable_text %}
+<div class="page-gallery page-gallery__gallery">
+  <div class="page_header">
+    <h3>{{ site.data.gallery.long_title }}</h3>
+    {{ site.data.gallery.body | markdownify }}
+  </div>
+  <!-- Filter -->
+  <div id="filters" class="filters">
+    <div class="m-bottom-1">
+      <a href="#" data-filter="*" class="selected">
+        {{ site.data.gallery.filter.all }}
+      </a>
     </div>
-    <!-- Filter -->
-    <div id="filters" class="filters">
-      <div class="m-bottom-1">
-        <a href="#" data-filter="*" class="selected">
-          {% editable_text "Show all", block: "Gallery", rows: 1, format: 'raw' %}Show all{% endeditable_text %}
-        </a>
-      </div>
-      <div>
-        <b>{% editable_text "Filter by category title", block: "Gallery", rows: 1, format: 'raw' %}Filter by category:{% endeditable_text %}</b>
-        <ul class="inline-block m-left-0 p-left-0">
-          {% for category in contents.categories %}
-            {% if category.photos.any? %}
-              <li class="inline-block p-left-1">
-                <a class="" href="#" data-filter=".{{ category._slug }}">{{ category.name }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    <div class="row-fluid">
-      {% editable_model photos, hint: 'Edit displayed photos in gallery' %}
-        <ul id="isotopeContainer" class="gallery items-row cols-4 isotope">
-          {% for photo in contents.photos %}
-            {% include 'gallery_item' with photo %}
-          {% endfor %}
-        </ul>
-      {% endeditable_model %}
+    <div>
+      <b>{{ site.data.gallery.filter.by_tag }}:</b>
+      <ul class="inline-block m-left-0 p-left-0">
+        {% for photo in site.photos %}
+          {% assign tags = tags | concat: photo.tags | uniq %}
+        {% endfor %}
+        {% for tag in tags %}
+          {% assign filterable_tag = site.filterable_tags |
+               where: "name", tag |
+               first %}
+          {% unless filterable_tag %}{% continue %}{% endunless %}
+          {% capture tag_slug -%}
+            {% include helpers/slug.html page=tag %}
+          {%- endcapture %}
+          <li class="inline-block p-left-1">
+            <a class="" href="#" data-filter=".{{ tag_slug }}">{{ filterable_tag.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
+  <div class="row-fluid">
+    <ul id="isotopeContainer" class="gallery items-row cols-4 isotope">
+      {% for photo in site.photos %}
+        {% include gallery_item.html photo=photo %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-  <script type="text/javascript">
-  jQuery(function() {
-    var $ = jQuery
+<script type="text/javascript">
+jQuery(function() {
+  var $ = jQuery
 
-    var $cols = 4;
-    var $container = $('#isotopeContainer');
+  var $cols = 4;
+  var $container = $('#isotopeContainer');
 
-    $item = $('.gallery-item')
-    $item.outerWidth(Math.floor($container.width() / $cols));
+  $item = $('.gallery-item')
+  $item.outerWidth(Math.floor($container.width() / $cols));
 
+  $container.isotope({
+    animationEngine: 'best-available',
+    animationOptions: {
+      queue: false,
+      duration: 800
+    },
+    containerClass: 'isotope',
+    containerStyle: {
+      position: 'relative',
+      overflow: 'hidden'
+    },
+    hiddenClass: 'isotope-hidden',
+    itemClass: 'isotope-item',
+    resizable: true,
+    resizesContainer: true,
+    transformsEnabled: !$.browser.opera // disable transforms in Opera
+  });
+
+  if ($container.width() <= '767') {
+    $item.outerWidth($container.width());
+    $item.addClass('straightDown');
     $container.isotope({
-      animationEngine: 'best-available',
-      animationOptions: {
-        queue: false,
-        duration: 800
-      },
-      containerClass: 'isotope',
-      containerStyle: {
-        position: 'relative',
-        overflow: 'hidden'
-      },
-      hiddenClass: 'isotope-hidden',
-      itemClass: 'isotope-item',
-      resizable: true,
-      resizesContainer: true,
-      transformsEnabled: !$.browser.opera // disable transforms in Opera
+      layoutMode: 'straightDown'
     });
+  } else {
+    $item.removeClass('straightDown');
+    $container.isotope({
+      layoutMode: 'fitRows'
+    });
+  }
 
+  $(window).resize(function() {
+    $item.outerWidth(Math.floor($container.width() / $cols));
     if ($container.width() <= '767') {
       $item.outerWidth($container.width());
       $item.addClass('straightDown');
@@ -85,70 +94,54 @@ layout: contentpage
         layoutMode: 'straightDown'
       });
     } else {
+      $item.outerWidth(Math.floor($container.width() / $cols));
       $item.removeClass('straightDown');
       $container.isotope({
         layoutMode: 'fitRows'
       });
     }
-
-    $(window).resize(function() {
-      $item.outerWidth(Math.floor($container.width() / $cols));
-      if ($container.width() <= '767') {
-        $item.outerWidth($container.width());
-        $item.addClass('straightDown');
-        $container.isotope({
-          layoutMode: 'straightDown'
-        });
-      } else {
-        $item.outerWidth(Math.floor($container.width() / $cols));
-        $item.removeClass('straightDown');
-        $container.isotope({
-          layoutMode: 'fitRows'
-        });
-      }
-    });
-
-    var $container = $('#isotopeContainer');
-
-    // filter items when filter link is clicked
-    $('#filters a').click(function() {
-      var selector = $(this).attr('data-filter');
-      $container.isotope({
-        filter: selector
-      });
-      return false;
-    });
-
-    var $optionSets = $('#filters li'),
-      $optionLinks = $optionSets.find('a');
-
-    $optionLinks.click(function() {
-      var $this = $(this);
-      // don't proceed if already selected
-      if ($this.hasClass('selected')) {
-        return false;
-      }
-      var $optionSet = $this.parents('#filters');
-      $optionSet.find('.selected').removeClass('selected');
-      $this.addClass('selected');
-
-      // make option object dynamically, i.e. { filter: '.my-filter-class' }
-      var options = {},
-        key = $optionSet.attr('data-option-key'),
-        value = $this.attr('data-option-value');
-      // parse 'false' as false boolean
-      value = value === 'false' ? false : value;
-      options[key] = value;
-      if (key === 'layoutMode' && typeof changeLayoutMode === 'function') {
-        // changes in layout modes need extra logic
-        changeLayoutMode($this, options)
-      } else {
-        // otherwise, apply new options
-        $container.isotope(options);
-      }
-
-      return false;
-    })
   });
-  </script>
-{% endblock %}
+
+  var $container = $('#isotopeContainer');
+
+  // filter items when filter link is clicked
+  $('#filters a').click(function() {
+    var selector = $(this).attr('data-filter');
+    $container.isotope({
+      filter: selector
+    });
+    return false;
+  });
+
+  var $optionSets = $('#filters li'),
+    $optionLinks = $optionSets.find('a');
+
+  $optionLinks.click(function() {
+    var $this = $(this);
+    // don't proceed if already selected
+    if ($this.hasClass('selected')) {
+      return false;
+    }
+    var $optionSet = $this.parents('#filters');
+    $optionSet.find('.selected').removeClass('selected');
+    $this.addClass('selected');
+
+    // make option object dynamically, i.e. { filter: '.my-filter-class' }
+    var options = {},
+      key = $optionSet.attr('data-option-key'),
+      value = $this.attr('data-option-value');
+    // parse 'false' as false boolean
+    value = value === 'false' ? false : value;
+    options[key] = value;
+    if (key === 'layoutMode' && typeof changeLayoutMode === 'function') {
+      // changes in layout modes need extra logic
+      changeLayoutMode($this, options)
+    } else {
+      // otherwise, apply new options
+      $container.isotope(options);
+    }
+
+    return false;
+  })
+});
+</script>
