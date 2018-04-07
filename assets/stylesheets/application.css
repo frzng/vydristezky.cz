@@ -99,6 +99,8 @@ textarea {
 
 .clearfix {
   *zoom: 1; }
+.clearfix:empty {
+  display: block; }
 
 .clearfix:before,
 .clearfix:after {
@@ -7456,7 +7458,18 @@ input[type='checkbox'] {
   border: 5px solid #dab77f; }
 
 .img-intro img {
-  border: 5px solid #dab77f; }
+  border: 5px solid #dab77f;
+  object-fit: cover; }
+
+.img-intro__homepage img {
+  width: 113px;
+  height: 103px; }
+
+@media (min-width: 321px) {
+  .img-intro__news img {
+    width: 274px;
+    height: 175px; }
+}
 
 .img-intro__right,
 .img-full__right {
@@ -9876,6 +9889,12 @@ article {
   display: inline-block; }
   .article-gallery-link img {
     border: 5px solid #dab77f; }
+
+@media (min-width: 321px) {
+  .article-gallery-link img {
+    width: 200px;
+    height: 200px; }
+}
 
 .navigation ul.sf-menu > li.lastItem a {
   background: none; }
