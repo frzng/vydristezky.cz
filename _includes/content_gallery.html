@@ -7,7 +7,7 @@
       {% assign photos = site.photos |
            where: "gallery", gallery.page |
            sort: "position" %}
-      {% for photo in gallery.photos %}
+      {% for photo in photos %}
 	<li class="article-gallery-item img-full">
 	  {% assign author = site.data.authors[photo.author] %}
 	  <a href="{{ photo.image | relative_url }}"
