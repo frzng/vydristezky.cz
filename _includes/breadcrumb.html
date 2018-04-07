@@ -19,15 +19,18 @@
         {% assign complete_item_url = item_url | append: ".html" %}
       {% endif %}
       {% assign item = site.pages |
-           concat: site.md_pages |
            where: "url", complete_item_url |
            first %}
 
       {% unless item %}
         {% for collection in site.collections %}
-          {% assign item = site[collection.label] | where: "url", item_url | first %}
+          {% assign item = site[collection.label] |
+               where: "url", item_url |
+               first %}
           {% if item %}{% break %}{% endif %}
-          {% assign item = site[collection.label] | where: "url", complete_item_url | first %}
+          {% assign item = site[collection.label] |
+               where: "url", complete_item_url |
+               first %}
           {% if item %}{% break %}{% endif %}
         {% endfor %}
       {% endunless %}
