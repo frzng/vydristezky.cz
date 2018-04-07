@@ -3,20 +3,22 @@
     <div class="item column-1">
       <div class="item_header">
         <h4 class="item_title">
-          {% link_to news %}
+	  <a href="{{ include.news.url | relative_url }}">
+	    {{ include.news.title }}
+	  </a>
         </h4>
       </div>
       <div class="item_img img-intro img-intro__left">
-        {% link_to news %}
-          {{ news.image.url | resize: '274x175#' |image_tag }}
-        {% endlink_to %}
+        <a href="{{ include.news.url | relative_url }}">
+          <img src="{{ include.news.listing_thumbnail | default: include.news.image | relative_url }}">
+        </a>
       </div>
       <div class="item_introtext">
-        {{ news.content | strip_html | truncatewords: 50 }}
+        {{ include.news.content | strip_html | truncatewords: 50 }}
       </div>
       <br>
-      <a class="btn btn-info" href="{% path_to news %}">
-        <span>více</span>
+      <a class="btn btn-info" href="{{ include.news.url | relative_url }}">
+        <span>{{ site.data.news.more }}</span>
       </a>
     </div>
   </div>

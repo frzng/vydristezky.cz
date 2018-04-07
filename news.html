@@ -1,24 +1,12 @@
 ---
 title: Aktuality
-published: false
-listed: false
-position: 2
-editable_elements:
-  News/title: 'Aktuality '
-  header/Search: 'Hledat... '
 layout: contentpage
 ---
-{% block content/inner %}
-  <div class="page-blog page-blog__">
-    <div class="page_header">
-      <h3>{% editable_text "title", block: "News", rows: 1 %}News{% endeditable_text %}</h3>
-    </div>
-    {% editable_model news, hint: 'Edit displayed news' %}
-      {% with_scope published: true %}
-        {% for news in contents.news %}
-          {% include 'news_item' with news %}
-        {% endfor %}
-      {% endwith_scope published: true %}
-    {% endeditable_model %}
+<div class="page-blog page-blog__">
+  <div class="page_header">
+    <h3>{{ site.data.news.long_title }}</h3>
   </div>
-{% endblock %}
+  {% for post in site.posts %}
+    {% include news_item.html news=post %}
+  {% endfor %}
+</div>

@@ -108,6 +108,10 @@ collections:
   - name: image
     label: Image
     widget: image
+  - name: listing_thumbnail
+    label: Optional thumbnail for news listing (274 × 175 px)
+    widget: image
+    required: false
   - name: body
     label: Content
     widget: markdown
