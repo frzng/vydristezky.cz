@@ -1,6 +1,11 @@
 {%- capture tag_slugs -%}
   {%- for tag in include.photo.tags -%}
-    {%- capture tag_slug %} {% include helpers/slug.html page=tag %}{%- endcapture -%}
+    {%- assign filterable_tag = site.filterable_tags |
+          where: "name", tag |
+          first -%}
+    {%- unless filterable_tag -%}
+      {%- continue -%}
+    {%- endunless %} {% include helpers/slug.html page=filterable_tag -%}
   {%- endfor -%}
 {%- endcapture -%}
 {% assign author = site.data.authors[include.photo.author] %}
@@ -8,14 +13,14 @@
   {%- if author %}{{ author.name }} &ndash; {% endif -%}
   {{ include.photo.title }}
 {%- endcapture %}
-<li class="gallery-item firstItem isotope-item {{ tag_slugs }}">
+<li class="gallery-item firstItem isotope-item{{ tag_slugs }}">
   <div class="item_img img-intro img-intro__left">
     <a class="zoom"
        href="{{ include.photo.image | relative_url }}"
        data-rel="lightcase:gallery"
        title="{{ photo_title }}"
        data-lc-title="{{ photo_title }}"
-       data-categories="{{ tag_slugs }}">
+       data-categories="{{ tag_slugs | lstrip }}">
       <img src="{{ include.photo.gallery_thumbnail | default: include.photo.image | relative_url }}"
            class="gallery__image object-fit-cover" data-object-fit="cover"
            alt="{{ include.photo.content | strip_html }}"/>

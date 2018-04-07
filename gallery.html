@@ -21,13 +21,18 @@ layout: contentpage
         {% for photo in site.photos %}
           {% assign tags = tags | concat: photo.tags | uniq %}
         {% endfor %}
-        {% for tag in tags %}
-          {% assign filterable_tag = site.filterable_tags |
-               where: "name", tag |
-               first %}
-          {% unless filterable_tag %}{% continue %}{% endunless %}
+        {% assign joined_tags = tags | join: " " %}
+        {% assign joined_tags = " " | append: joined_tags | append: " " %}
+
+        {% assign filterable_tags = site.filterable_tags | sort: "position" %}
+
+        {% for filterable_tag in filterable_tags %}
+          {% unless joined_tags contains filterable_tag.name %}
+            {% continue %}
+          {% endunless %}
+
           {% capture tag_slug -%}
-            {% include helpers/slug.html page=tag %}
+            {% include helpers/slug.html page=filterable_tag %}
           {%- endcapture %}
           <li class="inline-block p-left-1">
             <a class="" href="#" data-filter=".{{ tag_slug }}">{{ filterable_tag.name }}</a>
