@@ -242,6 +242,103 @@ collections:
       file: _data/authors.yml
       fields: []
 
+    - name: search
+      label: Search
+      file: _data/search.yml
+      fields:
+        - name: long_title
+          label: Title
+          widget: string
+        - name: phrase
+          label: Phrase
+          widget: string
+        - name: loading
+          label: Loading
+          widget: string
+
+    - name: gallery
+      label: Gallery
+      file: _data/gallery.yml
+      fields:
+        - name: long_title
+          label: Title
+          widget: string
+        - name: body
+          label: Description
+          widget: markdown
+
+    - name: news
+      label: News
+      file: _data/news.yml
+      fields:
+        - name: long_title
+          label: Title
+          widget: string
+
+    - name: home
+      label: Home page
+      file: _data/home.yml
+      fields:
+        - name: news
+          label: News section (top)
+          widget: object
+          fields:
+            - name: following
+              label: Heading introducing news following the most recent ones
+              widget: string
+            - name: all
+              label: Button label showing all news
+              widget: string
+        - name: links
+          label: Links section with 5 items (middle)
+          widget: list
+          fields:
+            - name: title
+              label: Title
+              widget: string
+            - name: url
+              label: Link Address (use relative address)
+              widget: string
+            - name: image
+              label: Image (165 × 117 px)
+              widget: file
+        - name: mission
+          label: Mission section (1st bottom)
+          widget: object
+          fields:
+            - name: body
+              label: Content
+              widget: markdown
+        - name: gallery
+          label: Gallery section (2nd bottom)
+          widget: object
+          fields:
+            - name: title
+              label: Title
+              widget: string
+        - name: appeal
+          label: Appeal section (3rd bottom)
+          widget: object
+          fields:
+            - name: body
+              label: Content
+              widget: markdown
+        - name: other
+          label: Other section (4th bottom)
+          widget: object
+          fields:
+            - name: body
+              label: Content
+              widget: markdown
+
+    - name: aside
+      label: Right column
+      file: _data/aside.yml
+      fields:
+        - name: title
+          label: Default title
+          widget: string
+
     - name: header
       label: Global header
       file: _data/header.yml
