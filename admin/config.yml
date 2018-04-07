@@ -40,6 +40,10 @@ collections:
     label: Subtitle (optional small heading under long title)
     widget: string
     required: false
+  # - name: related_thumbnail
+  #   label: Thumbnail for listing in related pages (240 × 135 px)
+  #   widget: image
+  #   required: false
   - name: body
     label: Body
     widget: markdown

@@ -1,32 +1,57 @@
-{% if pages.size > 0 %}
-  <hr class="separator m-top-3 m-bottom-3" />
+{% capture page_url -%}
+  {% include helpers/pretty_url.html page=page %}
+{%- endcapture %}
+{% assign url_parts_count = page_url | split: "/" | size %}
 
-  {% for child in pages %}
-    {% if child.published? %}
-      <div class="items-row cols-1 row-0 row-fluid">
-        <div class="span12">
-          <div class="item column-1 m-bottom-2">
+{% assign url_prefix = page_url | append: "/" %}
+{% assign related_pages = site.pages |
+     concat: site.md_pages |
+     where_exp: "p", "p.url contains url_prefix" |
+     sort: "position" %}
+{% if related_pages.size > 0 %}
+  {% assign opened = false %}
 
-            {% assign title_image_enabled = child.editable_elements.page.title_image | strip %}
-            {% if title_image_enabled == 'true' and false %}
-              <div class="item_img img-intro img-intro__left">
-                {% link_to child %}
-                  {{ child.editable_elements.page.image | resize: '240x135#' | image_tag }}
-                {% endlink_to %}
-              </div>
-            {% endif %}
+  {% for child in related_pages %}
 
-            <div class="item_header">
-              <h4 class="item_title">
-                <a href={% path_to child %}>{{ child.editable_elements.page.title }}</a>
-              </h4>
-            </div>
-            <div class="item_introtext remove-all-the-styles">
-              {{ child.editable_elements.page.content | strip_html | truncatewords: 50 }}
-            </div>
-          </div>
-        </div>
-      </div>
+    {% capture child_url -%}
+      {% include helpers/pretty_url.html page=child %}
+    {%- endcapture %}
+
+    {% assign url_parts_size_check = child_url |
+         split: "/" |
+         size |
+         minus: 1 %}
+    {% if url_parts_size_check > url_parts_count %}
+      {% continue %}
     {% endif %}
+
+    {% unless opened %}
+      <hr class="separator m-top-3 m-bottom-3">
+      {% assign opened = true %}
+    {% endunless %}
+
+    <div class="items-row cols-1 row-0 row-fluid">
+      <div class="span12">
+	<div class="item column-1 m-bottom-2">
+
+          {% if child.image and false %}
+	    <div class="item_img img-intro img-intro__left">
+	      <a href="{{ child_url | relative_url }}">
+		<img src="{{ child.related_thumbnail | default: child.image | relative_url }}">
+	      </a>
+	    </div>
+	  {% endif %}
+
+	  <div class="item_header">
+	    <h4 class="item_title">
+	      <a href="{{ child_url | relative_url }}">{{ child.long_title | default: child.title }}</a>
+	    </h4>
+	  </div>
+	  <div class="item_introtext remove-all-the-styles">
+	    {{ child.content | strip_html | truncatewords: 50 }}
+	  </div>
+	</div>
+      </div>
+    </div>
   {% endfor %}
 {% endif %}
