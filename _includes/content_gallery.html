@@ -18,8 +18,7 @@
              data-rel="lightcase:gallery"
              class="article-gallery-link"
              title="{{ photo_title }}"
-             data-lc-title="{{ photo_title }}"
-             data-categories="{{ photo.tags | join: " " }}">
+             data-lc-title="{{ photo_title }}">
              <img src="{{ photo.content_thumbnail | default: photo.image | relative_url }}"
                   class="object-fit-cover" data-object-fit="cover"
                   alt="{{ photo.content | markdownify | strip_html}}"/>
