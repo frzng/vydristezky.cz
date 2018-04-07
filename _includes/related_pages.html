@@ -48,7 +48,7 @@
 	    </h4>
 	  </div>
 	  <div class="item_introtext remove-all-the-styles">
-	    {{ child.content | strip_html | truncatewords: 50 }}
+	    {{ child.content | markdownify | strip_html | truncatewords: 50 }}
 	  </div>
 	</div>
       </div>
