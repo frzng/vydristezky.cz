@@ -3,7 +3,7 @@
     <div class="moduletable   span12">
       {% assign showcases = site.showcases | sort: "position" %}
       {% if showcases.length > 1 %}
-          <div id="camera-slideshow" class="  camera_wrap pattern_1">
+        <div id="camera-slideshow" class="  camera_wrap pattern_1">
           {% for showcase in showcases %}
             <div class="camera-item" data-src="{{ showcase.image | relative_url }}" data-thumb="" data-link="" data-target="_self"></div>
           {% endfor %}
@@ -17,7 +17,8 @@
   </div>
 </div>
 
-<script type="text/javascript">
+{% if showcases.size > 1 %}
+<script>
 jQuery(document).ready(function() {
   jQuery('#camera-slideshow').camera({
     alignment: "center", //topLeft, topCenter, topRight, centerLeft, center, centerRight, bottomLeft, bottomCenter, bottomRight
@@ -67,3 +68,4 @@ jQuery(document).ready(function() {
   });
 });
 </script>
+{% endif %}

@@ -188,7 +188,7 @@ collections:
     label: Title
     widget: string
   - name: image
-    label: Image
+    label: Image (about one or two megapixels)
     widget: image
   - name: home_thumbnail
     label: Optional thumbnail for home page (113 × 103 px)

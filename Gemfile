@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.9"
 end
 
-# Site build.
+# Site build and task automation.
 gem "rake"
 
 # Site migration from Locomotive CMS.

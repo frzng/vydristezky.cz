@@ -10,11 +10,15 @@
       {% for photo in photos %}
         <li class="article-gallery-item img-full">
           {% assign author = site.data.authors[photo.author] %}
+          {% capture photo_title -%}
+            {%- if author %}{{ author.name }} &ndash; {% endif -%}
+            {{ include.photo.title }}
+          {%- endcapture %}
           <a href="{{ photo.image | relative_url }}"
              data-rel="lightcase:gallery"
              class="article-gallery-link"
-             title="{{ author.name }} &ndash; {{ photo.title }}"
-             data-lc-title="{{ author.name }} &ndash; {{ photo.title }}"
+             title="{{ photo_title }}"
+             data-lc-title="{{ photo_title }}"
              data-categories="{{ photo.tags | join: " " }}">
              <img src="{{ photo.content_thumbnail | default: photo.image | relative_url }}"
                   class="object-fit-cover" data-object-fit="cover"

@@ -18,14 +18,14 @@
        data-categories="{{ tag_slugs }}">
       <img src="{{ include.photo.gallery_thumbnail | default: include.photo.image | relative_url }}"
            class="gallery__image object-fit-cover" data-object-fit="cover"
-           alt="{{ include.photo.content | markdownify | strip_html }}"/>
+           alt="{{ include.photo.content | strip_html }}"/>
     </a>
   </div>
   <div class="item_header">
     <h5 class="item_title">{{ include.photo.title | truncate: 35 }}</h5>
   </div>
   <div class="item_introtext">
-    {{ include.photo.content | markdownify | truncatewords: 10 }}
+    {{ include.photo.content | truncatewords: 10 }}
     {% if author %}(<i>{{ author.name }}</i>){% endif %}
   </div>
   <div class="clearfix"></div>

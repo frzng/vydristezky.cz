@@ -5,6 +5,7 @@ description: >-
   informace a novinky o tzv. Vydřích stezkách.
 baseurl: ""
 url: https://www.vydristezky.cz
+author: alka-wildlife
 
 # Integrations and machine-readable metadata
 facebook:
@@ -59,8 +60,8 @@ exclude:
   - bin
 
 # Prevent from clobbering.
-# Netlify CMS and Netlify Identity Widget assets are created before Jekyll
-# build via make utility.
+# Netlify CMS and Netlify Identity Widget assets are created before
+# Jekyll build via Rake build task.
 keep_files:
   - assets/javascripts/cms.js
   - assets/javascripts/cms.js.map

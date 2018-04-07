@@ -1,6 +1,6 @@
+{% assign photos = site.photos | sort: "position" %}
 <h3 class="moduleTitle ">{{ site.data.home.gallery.title }}</h3>
 <div class="mod-newsflash-adv mod-newsflash-adv__projects">
-  {% assign photos = site.photos | sort: "position" %}
   <div class="row-fluid">
     {% for photo in photos limit: 2 %}
       {% include home_photogallery_item.html photo=photo %}
