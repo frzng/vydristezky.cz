@@ -37,21 +37,21 @@
       <div class="item column-1">
 
         {% if sibling.image and false %}
-	  <div class="item_img img-intro img-intro__left">
-	    <a href="{{ sibling_url | relative_url }}">
-	      <img src="{{ sibling.related_thumbnail | default: sibling.image | relative_url }}">
-	    </a>
-	  </div>
-	{% endif %}
+          <div class="item_img img-intro img-intro__left">
+            <a href="{{ sibling_url | relative_url }}">
+              <img src="{{ sibling.related_thumbnail | default: sibling.image | relative_url }}">
+            </a>
+          </div>
+        {% endif %}
 
-	<div class="item_header">
-	  <h4 class="item_title">
-	    <a href="{{ sibling_url | relative_url }}">{{ sibling.long_title | default: sibling.title }}</a>
-	  </h4>
-	</div>
-	<div class="item_introtext">
-	  {{ sibling.content | markdownify | strip_html | truncate: 120 }}
-	</div>
+        <div class="item_header">
+          <h4 class="item_title">
+            <a href="{{ sibling_url | relative_url }}">{{ sibling.long_title | default: sibling.title }}</a>
+          </h4>
+        </div>
+        <div class="item_introtext">
+          {{ sibling.content | markdownify | strip_html | truncate: 120 }}
+        </div>
       </div>
     </div>
   </div>

@@ -8,19 +8,19 @@
            where: "gallery", gallery.page |
            sort: "position" %}
       {% for photo in photos %}
-	<li class="article-gallery-item img-full">
-	  {% assign author = site.data.authors[photo.author] %}
-	  <a href="{{ photo.image | relative_url }}"
-	     data-rel="lightcase:gallery"
-	     class="article-gallery-link"
-	     title="{{ author.name }} &ndash; {{ photo.title }}"
-	     data-lc-title="{{ author.name }} &ndash; {{ photo.title }}"
-	     data-categories="{{ photo.tags | join: " " }}">
-	     <img src="{{ photo.content_thumbnail | default: photo.image | relative_url }}"
-		  class="object-fit-cover" data-object-fit="cover"
-		  alt="{{ photo.content | markdownify | strip_html}}"/>
-	  </a>
-	</li>
+        <li class="article-gallery-item img-full">
+          {% assign author = site.data.authors[photo.author] %}
+          <a href="{{ photo.image | relative_url }}"
+             data-rel="lightcase:gallery"
+             class="article-gallery-link"
+             title="{{ author.name }} &ndash; {{ photo.title }}"
+             data-lc-title="{{ author.name }} &ndash; {{ photo.title }}"
+             data-categories="{{ photo.tags | join: " " }}">
+             <img src="{{ photo.content_thumbnail | default: photo.image | relative_url }}"
+                  class="object-fit-cover" data-object-fit="cover"
+                  alt="{{ photo.content | markdownify | strip_html}}"/>
+          </a>
+        </li>
       {% endfor %}
     </ul>
   </div>
