@@ -3,44 +3,54 @@ title: Fotogalerie
 layout: contentpage
 ---
 {% assign photos = site.photos | sort: "position" %}
+{% for photo in photos %}
+  {% assign tags = tags | concat: photo.tags | uniq %}
+{% endfor %}
+
+{% assign filterable_tags = site.filterable_tags | sort: "position" %}
+{% for filterable_tag in filterable_tags %}
+  {% unless tags contains filterable_tag.name %}
+    {% continue %}
+  {% endunless %}
+  {% comment %}
+    The filter concat works only with array (at least that’s what
+    Liquid documentation says). That is why filterable_tag cannot be
+    used. So, we find the same tag again but keep it in array, so it
+    can be concatenated.
+  {% endcomment %}
+  {% assign matching_tags = site.filterable_tags |
+       where: "id", filterable_tag.id %}
+  {% assign filtered_tags = filtered_tags | concat: matching_tags %}
+{% endfor %}
+
 <div class="page-gallery page-gallery__gallery">
   <div class="page_header">
     <h3>{{ site.data.gallery.long_title }}</h3>
     {{ site.data.gallery.body | markdownify }}
   </div>
-  <!-- Filter -->
-  <div id="filters" class="filters">
-    <div class="m-bottom-1">
-      <a href="#" data-filter="*" class="selected">
-        {{ site.data.gallery.filter.all }}
-      </a>
+  {% if filtered_tags.size > 0 %}
+    <!-- Filter -->
+    <div id="filters" class="filters">
+      <div class="m-bottom-1">
+        <a href="#" data-filter="*" class="selected">
+          {{ site.data.gallery.filter.all }}
+        </a>
+      </div>
+      <div>
+        <b>{{ site.data.gallery.filter.by_tag }}:</b>
+        <ul class="inline-block m-left-0 p-left-0">
+          {% for filtered_tag in filtered_tags %}
+            {% capture tag_slug -%}
+              {% include helpers/slug.html page=filtered_tag %}
+            {%- endcapture %}
+            <li class="inline-block p-left-1">
+              <a class="" href="#" data-filter=".{{ tag_slug }}">{{ filtered_tag.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-    <div>
-      <b>{{ site.data.gallery.filter.by_tag }}:</b>
-      <ul class="inline-block m-left-0 p-left-0">
-        {% for photo in site.photos %}
-          {% assign tags = tags | concat: photo.tags | uniq %}
-        {% endfor %}
-        {% assign joined_tags = tags | join: " " %}
-        {% assign joined_tags = " " | append: joined_tags | append: " " %}
-
-        {% assign filterable_tags = site.filterable_tags | sort: "position" %}
-
-        {% for filterable_tag in filterable_tags %}
-          {% unless joined_tags contains filterable_tag.name %}
-            {% continue %}
-          {% endunless %}
-
-          {% capture tag_slug -%}
-            {% include helpers/slug.html page=filterable_tag %}
-          {%- endcapture %}
-          <li class="inline-block p-left-1">
-            <a class="" href="#" data-filter=".{{ tag_slug }}">{{ filterable_tag.name }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+  {% endif %}
   <div class="row-fluid">
     <ul id="isotopeContainer" class="gallery items-row cols-4 isotope">
       {% for photo in photos %}
