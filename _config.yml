@@ -50,6 +50,7 @@ plugins:
 
 # Exclude from processing.
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
   - package.json
