@@ -260,7 +260,7 @@ def field_key_value entry, field
     if field['format'].include? 'H'
       v = Time.parse v
     else
-      v = Date.parse
+      v = Date.parse v
     end
   when 'image'
     v = local_asset_from v
