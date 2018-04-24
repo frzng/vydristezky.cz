@@ -11,5 +11,20 @@
   </head>
   <body>
     <script src="{{ "/assets/javascripts/cms.js" | relative_url }}"></script>
+    <script>CMS.registerEditorComponent({
+      id: "clearfix",
+      label: "Clearfix",
+      fields: [],
+      pattern: /^<div\s+class=(['"])clearfix\1\s+><\/div>$/,
+      fromBlock: function(_match) {
+        return {}
+      },
+      toBlock: function(_obj) {
+        return '<div class="clearfix"></div>'
+      },
+      toPreview: function(_obj) {
+        return '<div class="clearfix"></div>'
+      }
+    })</script>
   </body>
 </html>

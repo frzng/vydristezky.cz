@@ -3,6 +3,8 @@ title: Obrázky od dětí z Vydří stezky
 image: "/uploads/Scan_20150511_104652_Nela_Chaloupkov__610.jpg"
 published: true
 date: 2015-06-01
+category: news
+layout: news
 ---
 Žáci 5. tříd Základní škody B. Němcové v Dačicích s námi šli naučnou
 Vydří stezku a své dojmy nakreslili. Podívejte se, obrázky jsou úžasné!

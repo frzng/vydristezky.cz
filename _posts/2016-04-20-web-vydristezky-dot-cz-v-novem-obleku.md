@@ -3,6 +3,8 @@ title: Web vydristezky.cz v novém obleku
 image: "/uploads/screen_610.jpg"
 published: true
 date: 2016-04-20
+category: news
+layout: news
 ---
 V dubnu 2016 otevíráme stránky vydristezky.cz v kompletně novém obleku.
 Stránky jsou v novém grafickém designu a i obsah stránek byl

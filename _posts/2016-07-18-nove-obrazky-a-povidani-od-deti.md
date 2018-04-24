@@ -3,6 +3,8 @@ title: Nové obrázky a povídání od dětí
 image: "/uploads/IMG_1635.JPG"
 published: true
 date: 2016-07-18
+category: news
+layout: news
 ---
 Letos nám žáci 5. tříd ze Základní školy Boženy Němcové v Dačicích opět
 namalovaly obrázky z Vydří stezky. Tentokrát je malovaly týmově, ve

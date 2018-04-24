@@ -28,29 +28,15 @@ collections:
     output: true
   galleries: {}
   posts:
-    output: true
-    permalink: "/news/:title"
+    permalink: /:categories/:title
   showcases: {}
-  user_answers:
-    output: false
-    permalink: "/user-answers/:title"
   filterable_tags: {}
-  photos: {}
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-  - scope:
-      path: ""
-      type: user_answers
-    values:
-      layout: user_answer
 
 # Build settings
 markdown: kramdown
+kramdown:
+  smart_quotes: 0x0201A,0x02018,0x0201E,0x0201C
+  header_offset: 3
 plugins:
   - jekyll-seo-tag
   - jekyll-feed

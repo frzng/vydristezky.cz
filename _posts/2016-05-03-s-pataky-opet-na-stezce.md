@@ -3,6 +3,8 @@ title: S páťáky opět na stezce
 image: "/uploads/DSCN1353_610.JPG"
 published: true
 date: 2016-05-03
+category: news
+layout: news
 ---
 Už tradiční akcí se stal výlet s žáky pátých tříd základní školy Boženy
 Němcové v Dačicích po Vydří stezce na Dyji při oslavě Dne Země.

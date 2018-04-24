@@ -3,6 +3,8 @@ title: Děti z Hobzí na stezce
 image: "/uploads/10708_610.jpg"
 published: true
 date: 2017-05-15
+category: news
+layout: news
 ---
 Na Den Země jsme opět vyrazili na jarní procházku Vydří stezkou.
 Tentokrát s dětmi ze Starého Hobzí. O tom jak se výlet podařil nemusíme

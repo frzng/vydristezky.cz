@@ -1,9 +1,13 @@
 ---
 title: Fotogalerie
+listed: false
+position: 3
 layout: contentpage
 ---
-{% assign photos = site.photos | sort: "position" %}
-{% for photo in photos %}
+{% assign photo_posts = site.posts |
+     where_exp: "post", "post.categories contains 'gallery'" |
+     sort: "position" %}
+{% for photo in photo_posts %}
   {% assign tags = tags | concat: photo.tags | uniq %}
 {% endfor %}
 
@@ -53,7 +57,7 @@ layout: contentpage
   {% endif %}
   <div class="row-fluid">
     <ul id="isotopeContainer" class="gallery items-row cols-4 isotope">
-      {% for photo in photos %}
+      {% for photo in photo_posts %}
         {% include gallery_item.html photo=photo %}
       {% endfor %}
     </ul>

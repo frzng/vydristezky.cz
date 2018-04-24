@@ -102,7 +102,7 @@ collections:
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
 
-- name: posts
+- name: news
   label: News
   folder: _posts
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -128,6 +128,15 @@ collections:
     label: Published at
     widget: date
     format: YYYY-MM-DD
+  meta:
+  - name: category
+    label: Category
+    widget: string
+    default: news
+  - name: layout
+    label: Layout
+    widget: string
+    default: news
 
 - name: showcases
   label: Showcases
@@ -153,12 +162,14 @@ collections:
     format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: user_answers
-  label: User answers
+  label: "\U0001F6AB User answers"
   label_singular: User answer
   description: >-
+    Disabled on this site.
     Answers to questions submitted by site visitors. These questions
     can be found in administration on Netlify.com.
-  folder: _user_answers
+  folder: _posts
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   create: true
   fields:
   - name: title
@@ -179,6 +190,14 @@ collections:
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
+  - name: category
+    label: Category
+    widget: string
+    default: user-answers
+  - name: layout
+    label: Layout
+    widget: string
+    default: user_answer
 
 - name: filterable_tags
   label: Categories
@@ -211,7 +230,8 @@ collections:
   description: >-
     Photos in linked to galleries. All photos are displayed on global
     photo gallery.
-  folder: _photos
+  folder: _posts
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   create: true
   fields:
   - name: title
@@ -261,6 +281,14 @@ collections:
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
+  - name: category
+    label: Category
+    widget: string
+    default: gallery
+  - name: layout
+    label: Layout
+    widget: string
+    default: photo
 
 - label: Site Settings
   name: settings

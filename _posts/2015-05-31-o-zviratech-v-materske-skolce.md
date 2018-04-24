@@ -3,6 +3,8 @@ title: O zvířatech v mateřské školce
 image: "/uploads/Sn_mek_055.jpg"
 published: true
 date: 2015-05-31
+category: news
+layout: news
 ---
 K mezinárodnímu dni vyder jsme připravili povídání o vydře a dalších
 zvířatech u vody v mateřské školce ve Slavonicích.

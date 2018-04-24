@@ -3,6 +3,8 @@ title: Hostem ve Starém městě pod Landštějnem
 image: "/uploads/13413697_1037150716371952_3581987812124907915_n.jpg"
 published: true
 date: 2016-06-14
+category: news
+layout: news
 ---
 K mezinárodnímu dni vyder jsme navštívili Základní školu ve Starém městě
 pod Landštejnem. Děti hned začaly klást otázky a po prvním náporu si

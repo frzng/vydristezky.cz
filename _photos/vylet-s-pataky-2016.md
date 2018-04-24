@@ -1,9 +1,0 @@
----
-title: Výlet s páťáky 2016
-image: "/uploads/DSCN1352.JPG"
-tags:
-- akce
-gallery: "/news/s-pataky-opet-na-stezce"
-position: 29
-date: 2016-05-02 13:10:47.000000000 Z
----

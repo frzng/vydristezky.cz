@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-{% for user_answer in site.user_answers %}
+{% assign user_answer_posts = site.posts |
+     where_exp: "post", "post.categories contains 'user-answers'" %}
+{% for user_answer in user_answer_posts %}
   {% assign tags = tags | concat: user_answer.tags | uniq %}
 {% endfor %}
 
@@ -80,8 +82,8 @@ layout: default
                   </p>
                 </li>
 
-                {% assign first_user_answer = site.user_answers | last %}
-                {% for user_answer in site.user_answers reversed %}
+                {% assign first_user_answer = user_answer_posts | last %}
+                {% for user_answer in user_answer_posts reversed %}
                   {% assign month = user_answer.date | date: "%Y-%m" %}
                   {% if month == previous_month and forloop.first == false %}
                     {% continue %}

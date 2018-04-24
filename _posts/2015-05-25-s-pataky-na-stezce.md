@@ -3,6 +3,8 @@ title: S páťáky na stezce
 image: "/uploads/IMG_7202.JPG"
 published: true
 date: 2015-05-25
+category: news
+layout: news
 ---
 Se žáky 5. tříd Základní školy Boženy Němcové v Dačicích jsme ke Dni
 Země šli Vydří stezkou na Dyji.
