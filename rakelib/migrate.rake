@@ -401,7 +401,7 @@ end
 
 def extract_layout_from_body page_like
   body = page_like['body'].lstrip
-  md = /\A\{%-?\s+extends\s+(['"])([^\1]+)\1\s+-?%\}\s*/.match body
+  md = /\A\{%-?\s+extends\s+(['"])([^\1\n\r]+)\1\s+-?%\}\s*/.match body
   if md and md[2].start_with?('layouts/')
     page_like['layout'] = md[2].split('/', 2).last
     page_like['body'] = body[md.end(0)..-1]
@@ -550,8 +550,13 @@ namespace "migrate" do
 
         entries.each do |e|
           d = entry_to_document e, col
-          File.write document_filename(d, e, col),
-                     dump_document(d, col)
+          begin
+            File.write document_filename(d, e, col),
+                       dump_document(d, col)
+          rescue Errno::ENAMETOOLONG
+            File.write "#{col['folder']}/#{e._id}.md",
+                       dump_document(d, col)
+          end
         end
 
         page = entries._next_page

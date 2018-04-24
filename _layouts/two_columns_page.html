@@ -12,7 +12,11 @@ ref: two_columns_page
           <div class="page-item page-item__">
             <article>
               <div class="item_header">
-                <h3 class="item_title">{{ page.long_title | default: page.title }}{% if page.subtitle %} <small>{{ page.subtitle }}</small>{% endif %}</h3>
+                {% if page.long_title %}
+                  <h3 class="item_title">{{ page.long_title | markdownify | remove: "<p>" | remove: "</p>" }}{% if page.subtitle %}<br><small>{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</small>{% endif %}</h3>
+                {% else %}
+                  <h3 class="item_title">{{ page.title }}</h3>
+                {% endif %}
               </div>
 
               {% if page.image %}

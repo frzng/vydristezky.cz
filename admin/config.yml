@@ -33,7 +33,9 @@ collections:
     widget: image
     required: false
   - name: long_title
-    label: Long title (heading right above content; defaults to plain title)
+    label: >-
+      Long title (heading right above content, you can wrap phrases
+      with * to emphasize them; defaults to plain title)
     widget: string
     required: false
   - name: subtitle
@@ -150,6 +152,34 @@ collections:
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
 
+- name: user_answers
+  label: User answers
+  label_singular: User answer
+  description: >-
+    Answers to questions submitted by site visitors. These questions
+    can be found in administration on Netlify.com.
+  folder: _user_answers
+  create: true
+  fields:
+  - name: title
+    label: Title
+    widget: string
+  - name: author
+    label: Author (name or identifier from _data/authors.yml file on GitHub)
+    widget: string
+  - name: body
+    label: Body
+    widget: markdown
+  - name: tags
+    label: Categories (to make them filterable, see Categories collection)
+    widget: list
+    required: false
+  meta:
+  - name: date
+    label: Created at
+    widget: date
+    format: YYYY-MM-DD HH:mm:ss ZZ
+
 - name: filterable_tags
   label: Categories
   label_singular: Category
@@ -207,11 +237,11 @@ collections:
     widget: markdown
     required: false
   - name: author
-    label: Author
+    label: Author (name or identifier from _data/authors.yml file on GitHub)
     widget: string
     required: false
   - name: tags
-    label: Categories
+    label: Categories (to make them filterable, see Categories collection)
     widget: list
     required: false
   - name: gallery
@@ -247,7 +277,7 @@ collections:
       file: _data/search.yml
       fields:
         - name: long_title
-          label: Title
+          label: Title (you can wrap phrases with * to emphasize them)
           widget: string
         - name: phrase
           label: Phrase
@@ -261,7 +291,7 @@ collections:
       file: _data/gallery.yml
       fields:
         - name: long_title
-          label: Title
+          label: Title (you can wrap phrases with * to emphasize them)
           widget: string
         - name: body
           label: Description
@@ -272,7 +302,7 @@ collections:
       file: _data/news.yml
       fields:
         - name: long_title
-          label: Title
+          label: Title (you can wrap phrases with * to emphasize them)
           widget: string
 
     - name: home

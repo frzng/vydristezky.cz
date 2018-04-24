@@ -25,7 +25,7 @@ layout: contentpage
 
 <div class="page-gallery page-gallery__gallery">
   <div class="page_header">
-    <h3>{{ site.data.gallery.long_title }}</h3>
+    <h3>{{ site.data.gallery.long_title | markdownify | remove: "<p>" | remove: "</p>" }}</h3>
     {{ site.data.gallery.body | markdownify }}
   </div>
   {% if filtered_tags.size > 0 %}

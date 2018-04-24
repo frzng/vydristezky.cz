@@ -12,8 +12,7 @@ facebook:
   app_id: 145375228868712
   publisher: 269120446533000
   admins: 1133305906
-logo:
-  "/uploads/vyd___stezka_logo_-_pr_hledn_.png"
+logo: /uploads/vyd___stezka_logo_-_pr_hledn_.png
 social:
   name: ALKA Wildlife, o.p.s.
   links:
@@ -32,6 +31,9 @@ collections:
     output: true
     permalink: "/news/:title"
   showcases: {}
+  user_answers:
+    output: false
+    permalink: "/user-answers/:title"
   filterable_tags: {}
   photos: {}
 
@@ -41,6 +43,11 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: user_answers
+    values:
+      layout: user_answer
 
 # Build settings
 markdown: kramdown

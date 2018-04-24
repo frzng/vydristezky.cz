@@ -46,7 +46,11 @@
 
         <div class="item_header">
           <h4 class="item_title">
-            <a href="{{ sibling_url | relative_url }}">{{ sibling.long_title | default: sibling.title }}</a>
+            {% if sibling.long_title %}
+              <a href="{{ sibling_url | relative_url }}">{{ sibling.long_title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+            {% else %}
+              <a href="{{ sibling_url | relative_url }}">{{ sibling.title }}</a>
+            {% endif %}
           </h4>
         </div>
         <div class="item_introtext">

@@ -1,4 +1,13 @@
 <div id="top-row">
+  {% if site.lang_alternatives %}
+    <div class="language-switch">
+      {% for alt in site.lang_alternatives %}
+        <a href="{{ alt.url }}" hreflang="{{ alt.lang }}" lang="{{ alt.lang }}">
+          <img alt="{{ alt.label }}" src="{{ alt.flag | relative_url }}">
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
   <div class="row-container">
     <div class="container-fluid">
       <div id="top" class="row-fluid">

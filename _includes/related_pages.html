@@ -45,7 +45,11 @@
 
           <div class="item_header">
             <h4 class="item_title">
-              <a href="{{ child_url | relative_url }}">{{ child.long_title | default: child.title }}</a>
+              {% if child.long_title %}
+                <a href="{{ child_url | relative_url }}">{{ child.long_title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+              {% else %}
+                <a href="{{ child_url | relative_url }}">{{ child.title }}</a>
+              {% endif %}
             </h4>
           </div>
           <div class="item_introtext remove-all-the-styles">
