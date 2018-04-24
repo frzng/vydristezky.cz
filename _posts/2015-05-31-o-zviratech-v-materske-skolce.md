@@ -21,4 +21,4 @@ ALKA Wildlife,o.p.s. a nelze ji v žádném případě považovat za názor
 donora nebo Ministerstva životního prostředí.*
 
 
-[1]: http://www.vydryonline.cz/o-nas/projekt
+[1]: https://www.vydryonline.cz/o-nas/projekt

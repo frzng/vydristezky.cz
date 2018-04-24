@@ -23,4 +23,4 @@ Podpořeno grantem z Islandu, Lichtenštejnska a Norska.
 Supported by grant from Iceland, Liechtenstein and Norway.
 
 
-[1]: http://www.vydryonline.cz
+[1]: https://www.vydryonline.cz

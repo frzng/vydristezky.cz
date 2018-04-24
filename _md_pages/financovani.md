@@ -10,7 +10,7 @@ layout: two_columns_page
 
 **Trvání projektu:** 2012 - 2013
 
-**Finanční zdroje:**   
+**Finanční zdroje:**  
 ERDF a státní fond (program OPŽP), vlastní zdroje, Ekoplast Telč
 
 ![](/uploads/Banner_OPZP_ERDF_CMYK.jpg)

@@ -21,6 +21,6 @@ facebook společnosti: [https://www.facebook.com/AlkaWildlife][2]
 Odborný tématický web o vydře říční: [www.vydryonline.cz][3]
 
 
-[1]: http://www.alkawildlife.eu
+[1]: https://www.alkawildlife.eu
 [2]: https://www.facebook.com/AlkaWildlife
-[3]: http://www.vydryonline.cz
+[3]: https://www.vydryonline.cz

@@ -7,10 +7,10 @@ listed: true
 position: 2
 layout: two_columns_page
 ---
-**Trvání projektu:**   
+**Trvání projektu:**  
 2015-2016
 
-**Finanční zdroje:**   
+**Finanční zdroje:**  
 EHP fondy 2009-2014, Ministerstvo životního prostředí
 
 ![](/uploads/logoMGS_610.jpg)
@@ -25,4 +25,4 @@ nachází.
 [Více o projektu][1]
 
 
-[1]: http://www.vydryonline.cz/o-nas/projekt
+[1]: https://www.vydryonline.cz/o-nas/projekt

@@ -40,4 +40,4 @@ Vycházka byla součást projektu
 *autor: Vendy*
 
 
-[1]: http://www.vydryonline.cz/o-nas/projekt
+[1]: https://www.vydryonline.cz/o-nas/projekt
