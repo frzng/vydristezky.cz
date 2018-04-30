@@ -21,7 +21,7 @@ links:
 
 mission:
   body: |+
-    ### Mise
+    # Mise
 
     Cílem těchto stránek je představit vydru říční - naši největší šelmu vod
     a přinést základní informace a novinky o tzv. Vydřích stezkách.
@@ -35,7 +35,7 @@ gallery:
 
 appeal:
   body: |+
-    ### Nabídka
+    # Nabídka
 
     [Nabízíme možnost procházky stezkou s průvodcem.](/o-nas/nabidka)
 
@@ -44,6 +44,6 @@ appeal:
 
 other:
   body: |+
-    ### [Videogalerie](/vydra/videogalerie)
+    # [Videogalerie](/vydra/videogalerie)
 
     [](/vydra/videogalerie)![](/uploads/videogalerie_156.jpg)

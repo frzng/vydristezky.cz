@@ -148,7 +148,7 @@ p {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 14px;
   color: #ffffff !important;
-  background: url(../images/butbg.gif) repeat-x #5b881a;
+  background: url(../images/butbg.png) repeat-x #5b881a;
   box-shadow: none;
   border: none !important;
   line-height: 28px;
@@ -229,7 +229,7 @@ ul.categories-module h5 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 14px;
   color: #ffffff;
-  background: url(../images/butbg.gif) repeat-x;
+  background: url(../images/butbg.png) repeat-x;
   box-shadow: none;
   border: none;
   height: 25px;
@@ -249,7 +249,7 @@ ul.categories-module h5 {
 .pagination ul li span.pagenav:focus,
 .pagination ul li span.pagenav.active {
   color: #ffffff;
-  background: url(../images/butbg.gif) repeat-x; }
+  background: url(../images/butbg.png) repeat-x; }
 
 .pagination ul li.num .pagenav {
   box-shadow: none;
@@ -260,7 +260,7 @@ ul.categories-module h5 {
 .pagination ul li.num span.pagenav:focus,
 .pagination ul li.num span.pagenav.active {
   color: #ffffff;
-  background: url(../images/butbg.gif) repeat-x; }
+  background: url(../images/butbg.png) repeat-x; }
 
 .pagination .counter {
   float: left; }

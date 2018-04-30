@@ -75,7 +75,7 @@ collections:
     widget: markdown
     required: false
   meta:
-  - name: date
+  - name: datetime
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
@@ -97,7 +97,7 @@ collections:
     widget: number
     valueType: int
   meta:
-  - name: date
+  - name: datetime
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
@@ -106,6 +106,9 @@ collections:
   label: News
   folder: _posts
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  filter:
+    field: category
+    value: news
   create: true
   fields:
   - name: title
@@ -156,7 +159,7 @@ collections:
     widget: number
     valueType: int
   meta:
-  - name: date
+  - name: datetime
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
@@ -170,6 +173,9 @@ collections:
     can be found in administration on Netlify.com.
   folder: _posts
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  filter:
+    field: category
+    value: user-answers
   create: true
   fields:
   - name: title
@@ -186,7 +192,7 @@ collections:
     widget: list
     required: false
   meta:
-  - name: date
+  - name: datetime
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
@@ -219,7 +225,7 @@ collections:
     widget: number
     valueType: int
   meta:
-  - name: date
+  - name: datetime
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
@@ -232,6 +238,9 @@ collections:
     photo gallery.
   folder: _posts
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  filter:
+    field: category
+    value: gallery
   create: true
   fields:
   - name: title
@@ -277,7 +286,7 @@ collections:
     widget: number
     valueType: int
   meta:
-  - name: date
+  - name: datetime
     label: Created at
     widget: date
     format: YYYY-MM-DD HH:mm:ss ZZ
@@ -396,6 +405,17 @@ collections:
         - name: title
           label: Default title
           widget: string
+
+    - name: footer
+      label: Global footer
+      file: _data/footer.yml
+      fields:
+        - name: funded_by_eea
+          label: Supported by grant from Iceland, Liechtenstein and Norway
+          widget: boolean
+        - name: funded_by_moe
+          label: Supported by Ministry of the Environment of the Czech Republic
+          widget: boolean
 
     - name: header
       label: Global header
