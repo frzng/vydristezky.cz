@@ -74,9 +74,9 @@ collections:
     label: Content for aside above sibling pages listing
     widget: markdown
     required: false
-  - name: datetime
+  - name: date
     label: "\U00002757 Published at (change with caution)"
-    widget: date
+    widget: datetime
     format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: galleries
@@ -95,9 +95,9 @@ collections:
     label: Position
     widget: number
     valueType: int
-  - name: datetime
+  - name: date
     label: "\U00002757 Published at (change with caution)"
-    widget: date
+    widget: datetime
     format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: news
@@ -155,9 +155,9 @@ collections:
     label: Position
     widget: number
     valueType: int
-  - name: datetime
+  - name: date
     label: "\U00002757 Published at (change with caution)"
-    widget: date
+    widget: datetime
     format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: user_answers
@@ -187,9 +187,9 @@ collections:
     label: Categories (to make them filterable, see Categories collection)
     widget: list
     required: false
-  - name: datetime
+  - name: date
     label: "\U00002757 Published at (change with caution)"
-    widget: date
+    widget: datetime
     format: YYYY-MM-DD HH:mm:ss ZZ
   - name: category
     label: "\U0001F6AB Post type (do not change)"
@@ -219,9 +219,9 @@ collections:
     label: Position
     widget: number
     valueType: int
-  - name: datetime
+  - name: date
     label: "\U00002757 Published at (change with caution)"
-    widget: date
+    widget: datetime
     format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: photos
@@ -279,9 +279,9 @@ collections:
     label: Position on global photo gallery page (not the gallery above)
     widget: number
     valueType: int
-  - name: datetime
+  - name: date
     label: "\U00002757 Published at (change with caution)"
-    widget: date
+    widget: datetime
     format: YYYY-MM-DD HH:mm:ss ZZ
   - name: category
     label: "\U0001F6AB Post type (do not change)"
