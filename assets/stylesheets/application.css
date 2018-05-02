@@ -7322,7 +7322,7 @@ p {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 14px;
   color: #ffffff !important;
-  background: url(../images/butbg.png) repeat-x #5b881a;
+  background: url(../images/butbg.png) repeat-x #BB0A21;
   box-shadow: none;
   border: none !important;
   line-height: 28px;
@@ -9940,16 +9940,6 @@ ul.gallery .gallery-item {
   width: 0.2rem; }
 .remove-all-the-styles hr, .remove-all-the-styles img {
   display: none !important; }
-
-.readmore,
-.btn-info,
-.page-item #section-kmt .kmt-btn-submit,
-.kmt-form-submit .submitButton,
-.aside .btn-primary,
-.page-item__edit .btn-primary,
-#contact-form .btn-primary,
-#searchForm .btn-primary {
-  background: #BB0A21; }
 
 .readmore:hover,
 .btn-info:hover,
