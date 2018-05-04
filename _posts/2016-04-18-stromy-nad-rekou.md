@@ -1,6 +1,6 @@
 ---
 title: Stromy nad řekou
-image: "/uploads/IMG_7513cb.jpg"
+image: "/media/IMG_7513cb.jpg"
 author: katerina-polednikova
 tags: []
 position: 19

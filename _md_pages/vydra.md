@@ -1,7 +1,7 @@
 ---
 title: Vydra
 permalink: /vydra
-image: "/uploads/vydra4B_610.jpg"
+image: "/media/vydra4B_610.jpg"
 long_title: Vydra říční
 published: true
 listed: true

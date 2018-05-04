@@ -1,6 +1,6 @@
 ---
 title: Hostem ve Starém městě pod Landštějnem
-image: "/uploads/13413697_1037150716371952_3581987812124907915_n.jpg"
+image: "/media/13413697_1037150716371952_3581987812124907915_n.jpg"
 published: true
 date: 2016-06-14
 category: news
@@ -22,7 +22,7 @@ dárky: obrázek a sladkou kytku.
 Aktivita je součástí projektu
 [Realizace vybraných opatření Programu péče pro vydru říční v ČR][1].
 
-![](/uploads/loga_mgs_stojato_mm.jpg){: .wysiwyg-float-left}*Podpořeno
+![](/media/loga_mgs_stojato_mm.jpg){: .wysiwyg-float-left}*Podpořeno
 grantem z Islandu, Lichtenštejnska a Norska.*
 
 *Tato akce byla realizována za finanční podpory EHP fondů 2009-2014 a

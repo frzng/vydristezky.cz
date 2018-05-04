@@ -1,6 +1,6 @@
 ---
 title: Obrázek od dětí z Vydří stezky
-image: "/uploads/Scan_20170513_081218.jpg"
+image: "/media/Scan_20170513_081218.jpg"
 tags:
 - výtvory dětí
 gallery: "/news/deti-z-hobzi-na-stezce"

@@ -14,7 +14,7 @@ spala.
 
 #### Stopa vydry
 
-![](/uploads/MG_7591_610.jpg)
+![](/media/MG_7591_610.jpg)
 
 Moje stopa je pětiprstá, někdy jsou vidět i plovací blány. Někdy je také
 ve stopní dráze vidět i otisk mého ocasu. Moje stopy na rybníku vedou k
@@ -26,14 +26,14 @@ do vody a pokračuji dál.
 
 #### Tunely ve sněhu
 
-![](/uploads/IMG_0327_610.JPG)
+![](/media/IMG_0327_610.JPG)
 
 Protože mám krátké nohy, v hlubokém sněhu za mnou zůstává hluboká rýha
 od celého těla.
 
 #### trus
 
-![](/uploads/IMG_6407_610.JPG)
+![](/media/IMG_6407_610.JPG)
 
 Můj trus je velmi jednoduché najít, protože trusem my vydry spolu
 „mluvíme“, a tak jej trousím, kudy chodím. A to na všechna výrazná místa
@@ -45,7 +45,7 @@ sekretu) a „voní“ po rybách.
 
 #### hromádka
 
-![](/uploads/IMG_6420_610.JPG)
+![](/media/IMG_6420_610.JPG)
 
 Když už nemůžu najít nějaký ten kámen nebo kořen, kde by se mi líbilo
 značku nechat, pomůžu si. Packama uhrabu písek či mech a udělám takovou

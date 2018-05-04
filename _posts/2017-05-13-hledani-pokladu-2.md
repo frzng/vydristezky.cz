@@ -1,6 +1,6 @@
 ---
 title: hledání pokladů
-image: "/uploads/10707.jpg"
+image: "/media/10707.jpg"
 tags:
 - akce
 gallery: "/news/deti-z-hobzi-na-stezce"

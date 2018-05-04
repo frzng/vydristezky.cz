@@ -1,6 +1,6 @@
 ---
 title: S páťáky opět na stezce
-image: "/uploads/DSCN1353_610.JPG"
+image: "/media/DSCN1353_610.JPG"
 published: true
 date: 2016-05-03
 category: news
@@ -19,7 +19,7 @@ zjistili podle čerstvého trusu, který na břehu řeky zanechala.
 Aktivita je součástí projektu
 [Realizace vybraných opatření Programu péče pro vydru říční v ČR][1].
 
-![](/uploads/loga_mgs_stojato_mm.jpg){: .wysiwyg-float-left}*Podpořeno
+![](/media/loga_mgs_stojato_mm.jpg){: .wysiwyg-float-left}*Podpořeno
 grantem z Islandu, Lichtenštejnska a Norska.*
 
 *Tato akce byla realizována za finanční podpory EHP fondů 2009-2014 a

@@ -1,6 +1,6 @@
 ---
 title: Čaj pro hosta
-image: "/uploads/13428025_1037150689705288_5622452437264586932_n.jpg"
+image: "/media/13428025_1037150689705288_5622452437264586932_n.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"

@@ -1,6 +1,6 @@
 ---
 title: Slepé rameno řeky
-image: "/uploads/P1160159_pa_cb.jpg"
+image: "/media/P1160159_pa_cb.jpg"
 author: katerina-polednikova
 tags:
 - řeka

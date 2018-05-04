@@ -1,6 +1,6 @@
 ---
 title: Louky v údolí
-image: "/uploads/P1160163_u_cb.jpg"
+image: "/media/P1160163_u_cb.jpg"
 author: katerina-polednikova
 tags:
 - stezka

@@ -1,6 +1,6 @@
 ---
 title: Povídání o výletu
-image: "/uploads/Scan_20170513_080801.jpg"
+image: "/media/Scan_20170513_080801.jpg"
 tags:
 - výtvory dětí
 gallery: "/news/deti-z-hobzi-na-stezce"

@@ -1,6 +1,6 @@
 ---
 title: List o vydře
-image: "/uploads/Scan_20170512_165707.jpg"
+image: "/media/Scan_20170512_165707.jpg"
 tags:
 - výtvory dětí
 gallery: "/news/deti-z-hobzi-na-stezce"

@@ -14,7 +14,7 @@ layout: two_columns_page
 ERDF a státní fond ([program OPŽP][1]), vlastní zdroje,
 [Ekoplast Telč][2]
 
-![](/uploads/Banner_OPZP_ERDF_CMYK.jpg)
+![](/media/Banner_OPZP_ERDF_CMYK.jpg)
 
 V rámci projektu byla vybudovaná naučná Vydří stezka na Dyji. Trasa
 nebyla upravována, vede po turistické značce. Podél značky bylo

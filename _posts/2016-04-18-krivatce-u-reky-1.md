@@ -1,6 +1,6 @@
 ---
 title: Křivatce u řeky
-image: "/uploads/IMG_8450.JPG"
+image: "/media/IMG_8450.JPG"
 author: katerina-polednikova
 tags: []
 position: 10

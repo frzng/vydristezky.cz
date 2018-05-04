@@ -1,6 +1,6 @@
 ---
 title: Most přes řeku
-image: "/uploads/IMG_8210cb.jpg"
+image: "/media/IMG_8210cb.jpg"
 author: katerina-polednikova
 tags: []
 position: 15

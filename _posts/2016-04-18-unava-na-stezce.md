@@ -1,6 +1,6 @@
 ---
 title: Únava na stezce
-image: "/uploads/IMG_0465.JPG"
+image: "/media/IMG_0465.JPG"
 author: katerina-polednikova
 tags: []
 position: 27

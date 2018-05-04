@@ -1,6 +1,6 @@
 ---
 title: Přivítání ve škole
-image: "/uploads/Projektove_foto_1.jpg"
+image: "/media/Projektove_foto_1.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"

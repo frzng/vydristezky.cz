@@ -1,6 +1,6 @@
 ---
 title: Přednáška
-image: "/uploads/13432373_1037150549705302_6052741386817496093_n.jpg"
+image: "/media/13432373_1037150549705302_6052741386817496093_n.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"

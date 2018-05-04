@@ -1,6 +1,6 @@
 ---
 title: Monitorovací raft
-image: "/uploads/13427957_1037150986371925_7180095323958921437_n.jpg"
+image: "/media/13427957_1037150986371925_7180095323958921437_n.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"

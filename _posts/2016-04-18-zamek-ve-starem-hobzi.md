@@ -1,6 +1,6 @@
 ---
 title: Zámek ve Starém Hobzí
-image: "/uploads/IMG_8307.JPG"
+image: "/media/IMG_8307.JPG"
 author: katerina-polednikova
 tags: []
 position: 11

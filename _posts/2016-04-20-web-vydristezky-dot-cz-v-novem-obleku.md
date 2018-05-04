@@ -1,6 +1,6 @@
 ---
 title: Web vydristezky.cz v novém obleku
-image: "/uploads/screen_610.jpg"
+image: "/media/screen_610.jpg"
 published: true
 date: 2016-04-20
 category: news
@@ -18,7 +18,7 @@ fondů 2009-2014 a Ministerstva životního prostředí. Za jejich obsah je
 výhradně odpovědná ALKA Wildlife, o.p.s. a nelze jej v žádném případě
 považovat za názor donora nebo Ministerstva životního prostředí.
 
-![](/uploads/logoMGS_610.jpg)
+![](/media/logoMGS_610.jpg)
 
 Podpořeno grantem z Islandu, Lichtenštejnska a Norska.
 

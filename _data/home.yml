@@ -5,19 +5,19 @@ news:
 links:
   - title: Videopozvánka
     url: /stezka/videopozvanka
-    image: /uploads/videopozvanka_156.jpg
+    image: /media/videopozvanka_156.jpg
   - title: Průvodce stezkou
     url: /stezka/zastaveni
-    image: /uploads/P1190477_156.JPG
+    image: /media/P1190477_156.JPG
   - title: Stezka s Loirou
     url: /stezka/stezka-s-loirou
-    image: /uploads/Loira_07_156.jpg
+    image: /media/Loira_07_156.jpg
   - title: Stezka s Loirou
     url: /stezka/mapy-slash-trasy
-    image: /uploads/mapa_156.jpg
+    image: /media/mapa_156.jpg
   - title: Vydra
     url: /vydra
-    image: /uploads/IGP4773.JPG
+    image: /media/IGP4773.JPG
 
 mission:
   body: |+
@@ -46,4 +46,4 @@ other:
   body: |+
     # [Videogalerie](/vydra/videogalerie)
 
-    [](/vydra/videogalerie)![](/uploads/videogalerie_156.jpg)
+    [](/vydra/videogalerie)![](/media/videogalerie_156.jpg)

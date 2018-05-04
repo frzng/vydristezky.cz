@@ -1,6 +1,6 @@
 ---
 title: U informační tabule
-image: "/uploads/P1010055.jpg"
+image: "/media/P1010055.jpg"
 tags:
 - akce
 gallery: "/news/s-pataky-opet-na-stezce"

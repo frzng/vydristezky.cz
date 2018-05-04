@@ -1,6 +1,6 @@
 ---
 title: Křivatce u řeky
-image: "/uploads/IMG_8456.JPG"
+image: "/media/IMG_8456.JPG"
 author: katerina-polednikova
 tags:
 - vegetace

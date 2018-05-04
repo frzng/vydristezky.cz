@@ -1,6 +1,6 @@
 ---
 title: Otázky nebraly konce
-image: "/uploads/13335973_1037150836371940_4284169532751106259_n.jpg"
+image: "/media/13335973_1037150836371940_4284169532751106259_n.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"

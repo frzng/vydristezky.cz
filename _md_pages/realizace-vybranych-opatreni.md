@@ -13,7 +13,7 @@ layout: two_columns_page
 **Finanční zdroje:**  
 EHP fondy 2009-2014, Ministerstvo životního prostředí
 
-![](/uploads/logoMGS_610.jpg)
+![](/media/logoMGS_610.jpg)
 
 Projekt je zaměřen komplexně na řadu témat týkajících se ochrany vydry
 říční v České republice plynoucích z Programu péče pro vydru říční.

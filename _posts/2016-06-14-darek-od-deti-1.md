@@ -1,6 +1,6 @@
 ---
 title: Dárek od dětí
-image: "/uploads/13417424_1037150803038610_370805722901793383_n.jpg"
+image: "/media/13417424_1037150803038610_370805722901793383_n.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"

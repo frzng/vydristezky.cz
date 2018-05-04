@@ -12,7 +12,7 @@ nechutnají. Ale zajímaví taky jsou.
 
 ##### Orel mořský
 
-![](/uploads/Orel_mo_sk__610.jpg)
+![](/media/Orel_mo_sk__610.jpg)
 
 Tak na toho si musím dát pozor,
 až budu mít mladé, mohl by na ně dostat chuť. Je to obrovský pták, když
@@ -21,7 +21,7 @@ roztáhne křídla, může to být délka až dva a půl metru! V lese tady v
 
 ##### Ledňáček říční
 
-![](/uploads/led___ek____n__610.jpg)
+![](/media/led___ek____n__610.jpg)
 
 Pro mě tak trochu konkurence, žere ryby, ale jen ty maličké, protože je
 také malý. Co ale nenabral na velikosti, nabral na kráse – je
@@ -32,7 +32,7 @@ vhodných břehů uchovat a neudělat z řek rovné kanály.
 
 ##### Klínatka rohatá
 
-![](/uploads/Klinatka-rohata_610.jpg)
+![](/media/Klinatka-rohata_610.jpg)
 
 Klínatka je vážka, nenápadná příbuzná modrých motýlic, kterých si asi
 všimnete dřív. Vážky jsou dravci, loví v okolí vod. Jejich larvy žijí ve

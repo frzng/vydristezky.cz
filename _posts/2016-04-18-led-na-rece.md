@@ -1,6 +1,6 @@
 ---
 title: Led na řece
-image: "/uploads/IMG_8244u.jpg"
+image: "/media/IMG_8244u.jpg"
 author: katerina-polednikova
 tags: []
 position: 14

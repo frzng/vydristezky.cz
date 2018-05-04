@@ -1,7 +1,7 @@
 ---
 title: Vodní mlýny
 permalink: /stezka/stezka-s-loirou/vodni-mlyny
-image: "/uploads/IMG_8487_610.JPG"
+image: "/media/IMG_8487_610.JPG"
 long_title: Vodní mlýny 
 published: true
 listed: true

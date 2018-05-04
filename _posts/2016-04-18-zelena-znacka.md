@@ -1,6 +1,6 @@
 ---
 title: Zelená značka
-image: "/uploads/P1190463.JPG"
+image: "/media/P1190463.JPG"
 author: katerina-polednikova
 tags:
 - stezka

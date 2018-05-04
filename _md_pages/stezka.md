@@ -2,7 +2,7 @@
 title: Stezka
 permalink: /stezka
 long_title: Vydří stezka na Dyji
-image: "/uploads/IMG_6869.JPG"
+image: "/media/IMG_6869.JPG"
 published: true
 listed: true
 position: 4

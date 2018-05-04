@@ -1,6 +1,6 @@
 ---
 title: Pohled na Dačice
-image: "/uploads/IMG_7413u.jpg"
+image: "/media/IMG_7413u.jpg"
 author: katerina-polednikova
 tags: []
 position: 20

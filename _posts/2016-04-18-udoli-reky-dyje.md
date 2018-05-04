@@ -1,6 +1,6 @@
 ---
 title: Údolí řeky Dyje
-image: "/uploads/IMG_7623.JPG"
+image: "/media/IMG_7623.JPG"
 author: katerina-polednikova
 tags:
 - stezka

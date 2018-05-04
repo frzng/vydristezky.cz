@@ -1,7 +1,7 @@
 ---
 title: Stezka s Loirou
 permalink: /stezka/stezka-s-loirou
-image: "/uploads/Loira_04_610.jpg"
+image: "/media/Loira_04_610.jpg"
 published: true
 listed: true
 position: 1

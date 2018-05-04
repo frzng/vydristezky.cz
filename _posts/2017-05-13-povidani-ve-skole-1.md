@@ -1,6 +1,6 @@
 ---
 title: povídání ve škole
-image: "/uploads/10697.jpg"
+image: "/media/10697.jpg"
 tags:
 - akce
 gallery: "/news/deti-z-hobzi-na-stezce"

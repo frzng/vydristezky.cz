@@ -13,7 +13,7 @@ layout: two_columns_page
 **Finanční zdroje:**  
 ERDF a státní fond (program OPŽP), vlastní zdroje, Ekoplast Telč
 
-![](/uploads/Banner_OPZP_ERDF_CMYK.jpg)
+![](/media/Banner_OPZP_ERDF_CMYK.jpg)
 
 * Vybudování stezky (otevřena v roce 2013)
 * Informační letáček
@@ -27,7 +27,7 @@ ERDF a státní fond (program OPŽP), vlastní zdroje, Ekoplast Telč
 
 EHP fondy 2009-2014, Ministerstvo životního prostředí
 
-![](/uploads/logoMGS_610.jpg)
+![](/media/logoMGS_610.jpg)
 
 * Vytvoření a provoz webových stránek vydristezky.cz
 * Akce pro veřejnost v letech 2015-2017

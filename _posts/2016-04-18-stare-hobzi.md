@@ -1,6 +1,6 @@
 ---
 title: Staré Hobzí
-image: "/uploads/P1160146.JPG"
+image: "/media/P1160146.JPG"
 author: katerina-polednikova
 tags:
 - stezka

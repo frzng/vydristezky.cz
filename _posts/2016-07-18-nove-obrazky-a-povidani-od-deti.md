@@ -1,6 +1,6 @@
 ---
 title: Nové obrázky a povídání od dětí
-image: "/uploads/IMG_1635.JPG"
+image: "/media/IMG_1635.JPG"
 published: true
 date: 2016-07-18
 category: news
@@ -14,11 +14,11 @@ dvojicích. Moc jim děkujeme a níže jsou všechny k prohlédnutí.
 pro změnu napsali povídání – o tom jak se jim procházka za vydrou líbila
 a co si zapamatovaly. Přejeme proto milé počtení o vydře.
 
-![](/uploads/IMG_1642.JPG)
+![](/media/IMG_1642.JPG)
 
-![](/uploads/IMG_1641.JPG)
+![](/media/IMG_1641.JPG)
 
-![](/uploads/IMG_1640.JPG)
+![](/media/IMG_1640.JPG)
 
 *„Včera nás ve škole navštívila zooložka paní Poledníková, která nám
 vyprávěla o vydře říční.*
@@ -38,11 +38,11 @@ vody v rákosí, v keři, v hromadě klestí, mezi kameny.*
 *Po ukončení besedy jsme se vypravili hledat fotopast pomocí kompasu. V
 závěru jsme paní poledníkovou pozvali na oběd a rozloučili se s ní.“*
 
-![](/uploads/IMG_1639.JPG)
+![](/media/IMG_1639.JPG)
 
-![](/uploads/IMG_1638.JPG)
+![](/media/IMG_1638.JPG)
 
-![](/uploads/IMG_1634.JPG)
+![](/media/IMG_1634.JPG)
 
 *„Ve čtvrtek 26. 5. k nám do školy přijela z nedaleké vesnice od
 Slavonic paní Poledníková, která se zabývá prací zooložky a zkoumá
@@ -61,11 +61,11 @@ vrátili do školy.*
 *Čtvrteční program se mi moc líbil a dozvěděl jsem se mnoho nových
 informací.“*
 
-![](/uploads/IMG_1633.JPG)
+![](/media/IMG_1633.JPG)
 
-![](/uploads/IMG_1632.JPG)
+![](/media/IMG_1632.JPG)
 
-![](/uploads/IMG_1637.JPG)
+![](/media/IMG_1637.JPG)
 
 „Paní Poledníková se živí už dvacet let prácí zooložky. Paní
 Poledníková bydlí v malé vesničce u Slavonic. Zabývá se savci, nejvíce

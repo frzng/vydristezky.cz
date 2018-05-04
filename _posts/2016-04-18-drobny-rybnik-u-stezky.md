@@ -1,6 +1,6 @@
 ---
 title: Drobný rybník u stezky
-image: "/uploads/P7220150.JPG"
+image: "/media/P7220150.JPG"
 author: katerina-polednikova
 tags:
 - stezka

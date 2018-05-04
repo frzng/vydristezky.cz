@@ -22,7 +22,7 @@ Počet informačních tabulí: 9
 
 #### Km 0: Tabule č. 1. úvodní tabule v obci Dačice  
 
-![](/uploads/IMG_0197_610.JPG)
+![](/media/IMG_0197_610.JPG)
 
 Dačice náleží k nejstarším městům historického kraje jihozápadné Moravy.
 První písemná zmínka pochází z roku 1183. V současné době žije ve městě
@@ -37,7 +37,7 @@ turistické značky.
 
 #### Km 0: Homolkův mlýn
 
-![](/uploads/Homolkuv_610.JPG)
+![](/media/Homolkuv_610.JPG)
 
 První záznam pochází z konce 16. století. Založení tohoto mlýna se dává
 do spojitosti s rytířem Janem Babkou, mlýn byl dlouho zvaný Babkův.
@@ -53,7 +53,7 @@ Moravské Dyje je v úseku Vydří stezky velmi pestré, zaznamenáno zde bylo
 
 #### Km 1,7: Tabule č. 3. Natura 2000
 
-![](/uploads/IMG_6923_610.JPG)
+![](/media/IMG_6923_610.JPG)
 
 Natura 2000 je soustava chráněných území. Na svém území ji podle
 jednotných principů vytváří všechny státy EU. Cílem této soustavy je
@@ -65,7 +65,7 @@ ochrany.
 
 #### Km 2,2: Frelův mlýn
 
-![](/uploads/Freluv_610.JPG)
+![](/media/Freluv_610.JPG)
 
 První záznam pochází ze 17. století, kdy zde působila rodina Froelů.
 Tento mlýn je také znám jako Švábův, Šantrůčkův, Peckův či Kubešův podle
@@ -74,7 +74,7 @@ mlýna, poté se jako pohostinství stal cílem dačických při vycházkách.
 
 #### Km 2,2: Tabule č. 4. Vydra
 
-![](/uploads/IMG_6921_610.JPG)
+![](/media/IMG_6921_610.JPG)
 
 Vydra říční je „semiakvatický“ živočich. Vydry ve vodě loví potravu,
 hrají si tam, vodou putují krajinou.
@@ -91,7 +91,7 @@ Hradišťko je malá obec, která formálně spadá pod Dačice jako jeho místn
 
 #### Km 5,2: vlhké nivní louky
 
-![](/uploads/IMG_6914_610.JPG)
+![](/media/IMG_6914_610.JPG)
 
 Luční společenstva v nivách řek jsou pravidelně zaplavované, a proto
 mají na živiny bohaté půdy. Významně je na těchto loukách zastoupena
@@ -100,7 +100,7 @@ rozrazil dlouholistý, žluťucha lesklá, jarva žilnatá, svízel severní.
 
 #### Km 5,6: tabule č. 5 potrava vydry
 
-![](/uploads/IMG_0202_610.JPG)
+![](/media/IMG_0202_610.JPG)
 
 Vydra říční je vrcholový predátor, královna vod, loví vodní živočichy,
 převážně ryby, obojživelníky a raky. Vzácně uloví nějakého drobného
@@ -118,7 +118,7 @@ netřesk výběžkatý a rmen barvířský.
 
 #### Km 6,2: Spálený mlýn
 
-![](/uploads/spaleny_610.JPG)
+![](/media/spaleny_610.JPG)
 
 Poprvé je tento mlýn (také zvaný Hadrův neboli Hadermühle, Navrátilův)
 zmíněn v roce 1369. Mlýn sloužil jako obilný mlýn a pila. V roce 1932
@@ -127,7 +127,7 @@ zde byla instalována turbína. Dle záznamů vodní pila pracovala do roku
 
 #### Km 7,1: Volfův mlýn
 
-![](/uploads/IMG_8593_610.JPG)
+![](/media/IMG_8593_610.JPG)
 
 Aumühle či také Lužní mlýn je poprvé uveden v písemnostech v roce 1627.
 Dnešní název má po posledních majitelích, kteří již však mlýn
@@ -135,7 +135,7 @@ nevyužívali a pouze zde hospodařili jako zemědělci.
 
 #### Km 7,5: tabule č. 6: Přežijí vydry?
 
-![](/uploads/P1190477.JPG)
+![](/media/P1190477.JPG)
 
 Přes obecný neustálý pokles přírodní rozmanitosti se některé druhy
 zvířat navracejí do naší přírody, jedním z nich je i vydra říční. Nikdo
@@ -150,7 +150,7 @@ ochranářských opatření nejistá.
 
 #### Km 8,1: slepé rameno řeky
 
-![](/uploads/P1160159_610.JPG)
+![](/media/P1160159_610.JPG)
 
 Přirozená řeka se vlivem vody na podloží neustále mění, na jednom místě
 se břeh vymílá, na druhém se usazují náplavy. A tak se i koryto řeky
@@ -161,7 +161,7 @@ například slepé rameno, které vzniklo na původním místě koryta.
 
 #### Km 9,0: Loucký mlýn
 
-![](/uploads/Loucky_610.JPG)
+![](/media/Loucky_610.JPG)
 
 Na tomto místě stál a fungoval mlýn nejdéle. Mlýn byl postaven už před
 rokem 1190 a je jedním z nejstarších mlýnů v Čechách. Nejprve sloužil
@@ -171,7 +171,7 @@ turbína, dnes již však v provozu není.
 
 #### Km 9,0: tabule č. 7: vodní mlýny
 
-![](/uploads/IMG_6856_610.JPG)
+![](/media/IMG_6856_610.JPG)
 
 Vodní mlýny měly po celá staletí, od starověku až po vynález parního
 stroje a elektřiny, obrovský význam v životě lidí, protože představovaly
@@ -189,7 +189,7 @@ zatopeny vodou, některé jsou vyschlé. Zachovány byly jen jezy.
 
 #### Km 9,4: tabule č. 8: život u vody
 
-![](/uploads/P1190450_610.JPG)
+![](/media/P1190450_610.JPG)
 
 V řece i v údolní nivě kromě vydry říční žije celá řada dalších
 živočichů, ať už běžných, tak i vzácných. V korunách pobřežních stromů

@@ -1,6 +1,6 @@
 ---
 title: Frelův mlýn
-image: "/uploads/IMG_6915_upr.JPG"
+image: "/media/IMG_6915_upr.JPG"
 author: katerina-polednikova
 tags:
 - mlýny

@@ -1,6 +1,6 @@
 ---
 title: O zvířatech v mateřské školce
-image: "/uploads/Sn_mek_055.jpg"
+image: "/media/Sn_mek_055.jpg"
 published: true
 date: 2015-05-31
 category: news
@@ -14,7 +14,7 @@ Mezinárodní fond pro ochranu vyder vyhlásil 27.5.2015 jako Mezinárodní den 
 Aktivita je součástí projektu
 [Realizace vybraných opatření Programu péče pro vydru říční v ČR][1]
 
-![](/uploads/loga_mgs_stojato_mm.jpg){: .wysiwyg-float-left}*Podpořeno
+![](/media/loga_mgs_stojato_mm.jpg){: .wysiwyg-float-left}*Podpořeno
 grantem z Islandu, Lichtenštejnska a Norska.*
 
 *Tato akce byla realizována za finanční podpory EHP fondů 2009-2014 a

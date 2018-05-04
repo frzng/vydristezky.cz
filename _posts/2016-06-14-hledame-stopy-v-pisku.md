@@ -1,6 +1,6 @@
 ---
 title: Hledáme stopy v písku
-image: "/uploads/13445561_1037150993038591_8903787157632699462_n.jpg"
+image: "/media/13445561_1037150993038591_8903787157632699462_n.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"

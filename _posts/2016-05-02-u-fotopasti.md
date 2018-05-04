@@ -1,6 +1,6 @@
 ---
 title: U fotopasti
-image: "/uploads/DSCN1351.JPG"
+image: "/media/DSCN1351.JPG"
 tags:
 - akce
 gallery: "/news/s-pataky-opet-na-stezce"

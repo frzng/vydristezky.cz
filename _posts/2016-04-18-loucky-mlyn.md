@@ -1,6 +1,6 @@
 ---
 title: Loucký mlýn
-image: "/uploads/IMG_6859_upr.JPG"
+image: "/media/IMG_6859_upr.JPG"
 author: katerina-polednikova
 tags:
 - mlýny

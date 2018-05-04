@@ -1,6 +1,6 @@
 ---
 title: Sněženka podsněžník
-image: "/uploads/IMG_6885.JPG"
+image: "/media/IMG_6885.JPG"
 author: katerina-polednikova
 tags:
 - vegetace

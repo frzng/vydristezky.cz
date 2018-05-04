@@ -2,7 +2,7 @@ backend:
   name: github
   repo: AlkaWildlife/vydristezky.cz
 
-media_folder: uploads
+media_folder: media
 
 collections:
 - name: md_pages

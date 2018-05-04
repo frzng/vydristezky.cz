@@ -1,6 +1,6 @@
 ---
 title: Údolí řeky Dyje
-image: "/uploads/IMG_7614.JPG"
+image: "/media/IMG_7614.JPG"
 author: katerina-polednikova
 tags: []
 position: 18

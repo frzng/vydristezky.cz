@@ -1,6 +1,6 @@
 ---
 title: na stezce s dětmi
-image: "/uploads/10700.jpg"
+image: "/media/10700.jpg"
 tags:
 - akce
 gallery: "/news/deti-z-hobzi-na-stezce"

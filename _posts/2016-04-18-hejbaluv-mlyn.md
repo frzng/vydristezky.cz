@@ -1,6 +1,6 @@
 ---
 title: Hejbalův mlýn
-image: "/uploads/IMG_8487.JPG"
+image: "/media/IMG_8487.JPG"
 author: katerina-polednikova
 tags:
 - mlýny

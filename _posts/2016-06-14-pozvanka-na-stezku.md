@@ -1,6 +1,6 @@
 ---
 title: Pozvánka na stezku
-image: "/uploads/13419084_1037150806371943_3212901867026777985_n.jpg"
+image: "/media/13419084_1037150806371943_3212901867026777985_n.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"

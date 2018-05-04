@@ -1,6 +1,6 @@
 ---
 title: Čí je to stopa?
-image: "/uploads/13419279_1037151029705254_9029199485101234152_n.jpg"
+image: "/media/13419279_1037151029705254_9029199485101234152_n.jpg"
 tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"
