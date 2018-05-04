@@ -1,7 +1,7 @@
 ---
 title: Křivatce u řeky
 image: "/media/IMG_8456.JPG"
-author: katerina-polednikova
+author: Kateřina Poledníková
 tags:
 - vegetace
 published: true

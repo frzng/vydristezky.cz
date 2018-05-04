@@ -1,7 +1,7 @@
 ---
 title: Slepé rameno řeky
 image: "/media/P1160159_pa_cb.jpg"
-author: katerina-polednikova
+author: Kateřina Poledníková
 tags:
 - řeka
 published: true

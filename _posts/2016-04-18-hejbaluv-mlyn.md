@@ -1,7 +1,7 @@
 ---
 title: Hejbalův mlýn
 image: "/media/IMG_8487.JPG"
-author: katerina-polednikova
+author: Kateřina Poledníková
 tags:
 - mlýny
 published: true

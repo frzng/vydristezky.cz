@@ -1,7 +1,7 @@
 ---
 title: Zdi Velfova mlýna
 image: "/media/IMG_6907.JPG"
-author: katerina-polednikova
+author: Kateřina Poledníková
 tags:
 - mlýny
 published: true

@@ -1,7 +1,7 @@
 ---
 title: Údolí řeky Dyje
 image: "/media/IMG_7623.JPG"
-author: katerina-polednikova
+author: Kateřina Poledníková
 tags:
 - stezka
 published: true

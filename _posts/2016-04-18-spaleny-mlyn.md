@@ -1,7 +1,7 @@
 ---
 title: Spálený mlýn
 image: "/media/P1160186u.jpg"
-author: katerina-polednikova
+author: Kateřina Poledníková
 tags:
 - mlýny
 published: true

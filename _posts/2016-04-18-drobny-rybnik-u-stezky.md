@@ -1,7 +1,7 @@
 ---
 title: Drobný rybník u stezky
 image: "/media/P7220150.JPG"
-author: katerina-polednikova
+author: Kateřina Poledníková
 tags:
 - stezka
 published: true

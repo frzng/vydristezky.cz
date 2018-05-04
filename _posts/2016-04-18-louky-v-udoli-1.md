@@ -1,7 +1,7 @@
 ---
 title: Louky v údolí
 image: "/media/IMG_6914_upr.JPG"
-author: katerina-polednikova
+author: Kateřina Poledníková
 tags:
 - stezka
 published: true
