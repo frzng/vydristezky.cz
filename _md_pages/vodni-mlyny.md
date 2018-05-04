@@ -5,7 +5,7 @@ image: "/media/IMG_8487_610.JPG"
 long_title: Vodní mlýny 
 published: true
 listed: true
-position: 3
+position: 4
 layout: two_columns_page
 ---
 Dříve bylo kolem řeky živo. K řece se chodil napít dobytek, v řece se

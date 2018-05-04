@@ -5,7 +5,7 @@ long_title: Vydří stezka na Dyji
 image: "/media/IMG_6869.JPG"
 published: true
 listed: true
-position: 4
+position: 5
 layout: single_column_page
 ---
 Naučná stezka vede údolím řeky Moravské Dyje, v chráněném úseku, nachází

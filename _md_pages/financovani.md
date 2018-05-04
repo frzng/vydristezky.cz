@@ -3,7 +3,7 @@ title: Financování
 permalink: /o-nas/financovani
 published: true
 listed: true
-position: 1
+position: 2
 layout: two_columns_page
 ---
 #### Vydří stezka na Dyji (CZ.1.02/6.2.00/11.11604)

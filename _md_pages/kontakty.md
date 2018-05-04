@@ -3,7 +3,7 @@ title: Kontakty
 permalink: /o-nas/kontakty
 published: true
 listed: true
-position: 0
+position: 1
 layout: two_columns_page
 ---
 email: [Loira@vydristezky.cz](mailto:Loira@vydristezky.cz)

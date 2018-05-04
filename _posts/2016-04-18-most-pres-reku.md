@@ -3,7 +3,6 @@ title: Most přes řeku
 image: "/media/IMG_8210cb.jpg"
 author: katerina-polednikova
 tags: []
-position: 15
 published: true
 date: 2016-04-18 22:12:59.000000000 Z
 category: gallery

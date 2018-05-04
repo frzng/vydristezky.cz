@@ -4,7 +4,7 @@ permalink: /stezka/mapy-slash-trasy
 long_title: Mapy a trasy
 published: true
 listed: true
-position: 2
+position: 3
 layout: two_columns_page
 ---
 Ke stažení soubory map či jen trasy v různých formátech - pro tisk či

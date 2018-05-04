@@ -3,7 +3,7 @@ title: Videogalerie
 permalink: /vydra/videogalerie
 published: true
 listed: true
-position: 0
+position: 1
 layout: single_column_page
 ---
 Ve videogalerii si můžete prohlédnout videa vydry říční pořízené v rámci

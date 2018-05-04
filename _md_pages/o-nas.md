@@ -3,7 +3,7 @@ title: O nás
 permalink: /o-nas
 published: true
 listed: true
-position: 7
+position: 8
 layout: single_column_page
 ---
 texty: Kateřina Poledníková a Lukáš Poledník

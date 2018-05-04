@@ -4,7 +4,7 @@ permalink: /projekty/realizace-vybranych-opatreni
 long_title: Realizace vybraných opatření pro vydru říční v České republice (MGSII-42)
 published: true
 listed: true
-position: 2
+position: 3
 layout: two_columns_page
 ---
 **Trvání projektu:**  

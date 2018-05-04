@@ -4,7 +4,7 @@ permalink: /stezka/zastaveni
 long_title: Průvodce
 published: true
 listed: true
-position: 0
+position: 1
 layout: two_columns_page
 ---
 Stezka je vhodná pro pěší, jde o nenáročnou trasu, většinou se jde po

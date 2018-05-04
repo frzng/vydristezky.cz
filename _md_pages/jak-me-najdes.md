@@ -4,7 +4,7 @@ permalink: /stezka/stezka-s-loirou/jak-me-najdes
 long_title: Jak mě najdeš?
 published: true
 listed: true
-position: 4
+position: 5
 layout: two_columns_page
 ---
 Protože žiju v noci, asi se spolu nesetkáme. Ale jako každý za sebou

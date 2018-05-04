@@ -4,7 +4,7 @@ permalink: /stezka/stezka-s-loirou/co-zije-v-rece-a-nechutna-mi
 long_title: Co žije v řece a nechutná mi
 published: true
 listed: true
-position: 2
+position: 3
 layout: two_columns_page
 ---
 U řeky samozřejmě žije také plno dalších tvorů, kteří mi teda moc

@@ -4,7 +4,7 @@ permalink: /stezka/stezka-s-loirou/reka-dyje
 image: "/media/IMG_9085_610.JPG"
 published: true
 listed: true
-position: 0
+position: 1
 layout: two_columns_page
 ---
 Řeka není jen voda, která se line korytem údolím dolů. Voda přetváří

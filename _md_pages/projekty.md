@@ -3,7 +3,7 @@ title: Projekty
 permalink: /projekty
 published: true
 listed: true
-position: 5
+position: 6
 layout: single_column_page
 ---
 Budování Vydřích stezek je dlouhodobý záměr realizátorů, který je

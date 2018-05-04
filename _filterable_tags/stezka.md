@@ -1,4 +1,4 @@
 ---
 name: stezka
-position: 5
+position: 6
 ---

@@ -3,7 +3,7 @@ title: Koncept Vydřích stezek
 permalink: /projekty/koncept-vydrich-stezek
 published: true
 listed: true
-position: 0
+position: 1
 layout: two_columns_page
 ---
 Opomíjená nebo nenáviděná – tak je to s vydrou říční u nás. Přitom jde o

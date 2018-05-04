@@ -3,7 +3,7 @@ title: Videopozvánka
 permalink: /stezka/videopozvanka
 published: true
 listed: true
-position: 3
+position: 4
 layout: two_columns_page
 ---
 #### Vydří stezka na Moravské Dyji

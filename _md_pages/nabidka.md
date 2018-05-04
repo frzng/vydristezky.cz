@@ -3,7 +3,7 @@ title: Nabídka
 permalink: /o-nas/nabidka
 published: true
 listed: true
-position: 2
+position: 3
 layout: two_columns_page
 ---
 *Nabízíme možnost procházky stezkou s průvodcem.*
