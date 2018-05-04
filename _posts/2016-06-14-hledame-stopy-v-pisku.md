@@ -5,6 +5,7 @@ tags:
 - akce
 gallery: "/news/hostem-ve-starem-meste-pod-landstejnem"
 position: 47
+published: true
 date: 2016-06-14 20:17:12.000000000 Z
 category: gallery
 layout: photo

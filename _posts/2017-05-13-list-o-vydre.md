@@ -5,6 +5,7 @@ tags:
 - výtvory dětí
 gallery: "/news/deti-z-hobzi-na-stezce"
 position: 52
+published: true
 date: 2017-05-13 06:50:19.000000000 Z
 category: gallery
 layout: photo

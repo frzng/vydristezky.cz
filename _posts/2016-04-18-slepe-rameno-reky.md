@@ -5,6 +5,7 @@ author: katerina-polednikova
 tags:
 - řeka
 position: 4
+published: true
 date: 2016-04-18 22:04:22.000000000 Z
 category: gallery
 layout: photo
