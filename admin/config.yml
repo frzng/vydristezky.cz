@@ -74,10 +74,6 @@ collections:
     label: Content for aside above sibling pages listing
     widget: markdown
     required: false
-  - name: date
-    label: "\U00002757 Published at (change with caution)"
-    widget: datetime
-    format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: special_pages
   label: Special pages
@@ -256,10 +252,6 @@ collections:
     label: Position
     widget: number
     valueType: int
-  - name: date
-    label: "\U00002757 Published at (change with caution)"
-    widget: datetime
-    format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: news
   label: News
@@ -316,10 +308,6 @@ collections:
     label: Position
     widget: number
     valueType: int
-  - name: date
-    label: "\U00002757 Published at (change with caution)"
-    widget: datetime
-    format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: user_answers
   label: User answers
@@ -381,10 +369,6 @@ collections:
     label: Position
     widget: number
     valueType: int
-  - name: date
-    label: "\U00002757 Published at (change with caution)"
-    widget: datetime
-    format: YYYY-MM-DD HH:mm:ss ZZ
 
 - name: photos
   label: Photos
