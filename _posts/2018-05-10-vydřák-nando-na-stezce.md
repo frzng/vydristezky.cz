@@ -10,7 +10,7 @@ Na Vydří stezce se objevil vydřák Nando. Připlul zde oslavit Den Země s ž
 
 Tak vyrazte na stezku také. A kdyby jste vydřáka nepotkali, nevadí, na jaře je tam nádherně, celé údolí rozkvetlo. 
 
-![null](/media/rimg0156.jpg)
+![null](/media/rimg0156_610.jpg)
 
 ![null](/media/img_4110.jpg)
 
