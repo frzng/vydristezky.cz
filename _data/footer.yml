@@ -1,9 +1,9 @@
 funded_by:
 - logos:
   - image: /assets/images/logo-eea_grants.svg
-    height: 90
-    margin_top_bottom: 30
-    margin_left_right: 30
+    height: 70
+    margin_top_bottom: 24
+    margin_left_right: 24
   description:
   - lang: en
     body: Supported by grant from Iceland, Liechtenstein and Norway.
