@@ -1,2 +1,21 @@
-funded_by_eea: true
-funded_by_moe: true
+funded_by:
+- logos:
+  - image: /assets/images/logo-eea_grants.svg
+    height: 90
+    margin_top_bottom: 30
+    margin_left_right: 30
+  description:
+  - lang: en
+    body: Supported by grant from Iceland, Liechtenstein and Norway.
+  - lang: cs
+    body: Podpořeno grantem z Islandu, Lichtenštejnska a Norska.
+- logos:
+  - image: /assets/images/logo-moe-cs.svg
+    height: 25
+    margin_top_bottom: 25
+    margin_left_right: 17
+  description:
+  - lang: cs
+    body: |-
+      Vychází s podporou Ministerstva životního prostředí.
+      Nemusí vyjadřovat stanoviska MŽP.
