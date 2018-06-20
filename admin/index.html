@@ -90,6 +90,36 @@
     {% endraw %}</script>
     <script>{% raw %}
       /**
+       * Returns immutable collection as array.
+       *
+       * If given value has a method `toJS`, it’ll be
+       * called. Otherwise, returns the value itself.
+       *
+       * @param {?} value
+       * @return {*}
+       */
+      function immutableToJs(value) {
+        return value.toJS ? value.toJS() : value
+      }
+
+      /**
+       * Returns default value from props.
+       *
+       * If there’s none set, it either return an empty array if props
+       * allows multiple values to be set or `null`.
+       *
+       * @param {!ControlProps} props
+       * @return {!ControlValue}
+       */
+      function defaultCldrValue(props) {
+        if (props.field.has('default')) {
+          return immutableToJs(props.field.get('default'))
+        }
+
+        return props.field.get('multiple') ? [] : undefined
+      }
+
+      /**
        * Returns value from props as array of CLDR types.
        *
        * @param {!ControlProps} props
@@ -97,7 +127,7 @@
        */
       function valueAsCldrTypes(props) {
         return props.field.get('multiple') ?
-          (props.value || []) :
+          (immutableToJs(props.value) || []) :
           (props.value ? [props.value] : [])
       }
     {% endraw %}</script>
@@ -113,7 +143,7 @@
          * @param {!ControlProps} props
          * @return {!React.ReactNode}
          */
-        return function cldrWidgetControl(props) {
+        function cldrWidgetControl(props) {
           /**
            * Change set CLDR data items.
            *
@@ -203,8 +233,8 @@
           function cldrDataSelectElement(idx, selectedType,
                                          priorities, attrs) {
             var cldrItems = priorities ?
-                            prioritizeCldrItems(cldrList, priorities) :
-                            cldrList
+              prioritizeCldrItems(cldrList, priorities) :
+              cldrList
 
             if (selectedType === null) cldrItems.unshift(null)
 
@@ -219,8 +249,8 @@
               attrs,
               cldrItems.map(function(cldrData, i) {
                 return cldrData !== null ?
-                       h('option', { value: cldrData.type }, cldrData.name) :
-                       h('option', { disabled: true, selected: i === 0 })
+                  h('option', { value: cldrData.type }, cldrData.name) :
+                  h('option', { disabled: true, selected: i === 0 })
               })
             )]
 
@@ -250,7 +280,7 @@
             }).
             /* 2. Flatten the result of previous step. Previous step
              *    creates structure like this:
-             *    [[SELECT, BR], [SELECT, BR], …, [SELECT, BR]].
+             *    [[SELECT], [BR, SELECT], …, [BR, SELECT]].
              */
             reduce(function(flat, els) { return flat.concat(els) }, [])
 
@@ -285,6 +315,14 @@
             children
           )
         }
+
+        //XXX Netlify CMS breaks when custom widget has stateless
+        // control components (netlify/netlify-cms#1346).
+        return createClass({
+          render: function() {
+            return cldrWidgetControl(this.props)
+          }
+        })
       }
      {% endraw %}</script>
     <script>{% raw %}
@@ -298,20 +336,21 @@
          * @return {!React.ReactNode}
          */
         return function cldrWidgetPreview(props) {
-          return h('div',
-                   {},
-                   valueAsCldrTypes(props).
-                     map(function(type) {
-                       var idx
-                       for (idx = 0; idx < cldrList.length; idx += 1) {
-                         if (cldrList[idx].type === type) {
-                           return cldrList[idx].name
-                         }
-                       }
+          return h(
+            'div',
+            {},
+            valueAsCldrTypes(props).
+              map(function(type) {
+                var idx
+                for (idx = 0; idx < cldrList.length; idx += 1) {
+                  if (cldrList[idx].type === type) {
+                    return cldrList[idx].name
+                  }
+                }
 
-                       return type
-                     }).
-                     join(', ')
+                return type
+              }).
+              join(', ')
           )
         }
       }
