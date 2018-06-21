@@ -256,7 +256,7 @@ collections:
   folder: _galleries
   create: true
   fields:
-  - name: page
+  - name: title
     label: Page address (copy and paste from web browser address bar, and remove https:// and domain)
     widget: string
 
@@ -447,8 +447,8 @@ collections:
     widget: relation
     collection: galleries
     searchFields:
-    - page
-    valueField: page
+    - title
+    valueField: title
     required: false
   - name: date
     label: "\U00002757 Published at (change with caution)"

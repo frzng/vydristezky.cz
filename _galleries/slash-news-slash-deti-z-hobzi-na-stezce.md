@@ -1,3 +1,3 @@
 ---
-page: "/news/deti-z-hobzi-na-stezce"
+title: "/news/deti-z-hobzi-na-stezce"
 ---

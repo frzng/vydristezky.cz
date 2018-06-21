@@ -1,3 +1,3 @@
 ---
-page: "/news/s-pataky-opet-na-stezce"
+title: "/news/s-pataky-opet-na-stezce"
 ---

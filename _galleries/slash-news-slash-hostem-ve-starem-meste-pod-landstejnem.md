@@ -1,3 +1,3 @@
 ---
-page: "/news/hostem-ve-starem-meste-pod-landstejnem"
+title: "/news/hostem-ve-starem-meste-pod-landstejnem"
 ---
