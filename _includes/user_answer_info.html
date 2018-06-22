@@ -16,14 +16,14 @@
       <div class="item_category-name">
         {% for tag in include.user_answer.tags %}
           {% assign filterable_tag = site.filterable_tags |
-               where: "name", tag |
+               where: "title", tag |
                first %}
           {% unless filterable_tag %}{% continue %}{% endunless %}
           {% capture tag_slug -%}
             {% include helpers/slug.html page=filterable_tag %}
           {%- endcapture %}
           <a href="{{ "/user-answers" | relative_url }}#category={{ tag_slug }}" class="js-user-answer-category">
-            {{ filterable_tag.name }}
+            {{ filterable_tag.title }}
           </a>
           {%- unless forloop.last %}&nbsp;{% endunless %}
         {% endfor %}

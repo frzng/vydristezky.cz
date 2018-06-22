@@ -9,7 +9,7 @@ layout: default
 
 {% assign filterable_tags = site.filterable_tags | sort: "position" %}
 {% for filterable_tag in filterable_tags %}
-  {% unless tags contains filterable_tag.name %}
+  {% unless tags contains filterable_tag.title %}
     {% continue %}
   {% endunless %}
   {% comment %}
@@ -65,7 +65,7 @@ layout: default
                   {%- endcapture %}
                   <li>
                     <a href="{{ "/user-answers" | relative_url }}#category={{ tag_slug }}">
-                      {{ filtered_tag.name }}
+                      {{ filtered_tag.title }}
                     </a>
                   </li>
                 {% endfor %}
