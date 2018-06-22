@@ -1,4 +1,4 @@
 ---
-name: zvířata
+title: zvířata
 position: 4
 ---

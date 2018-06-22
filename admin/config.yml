@@ -382,7 +382,7 @@ collections:
   folder: _filterable_tags
   create: true
   fields:
-  - name: name
+  - name: title
     label: Name
     widget: string
   - name: position

@@ -1,4 +1,4 @@
 ---
-name: výtvory dětí
+title: výtvory dětí
 position: 7
 ---

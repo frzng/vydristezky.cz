@@ -1,4 +1,4 @@
 ---
-name: vegetace
+title: vegetace
 position: 2
 ---

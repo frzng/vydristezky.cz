@@ -1,4 +1,4 @@
 ---
-name: stezka
+title: stezka
 position: 6
 ---

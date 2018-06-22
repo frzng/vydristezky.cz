@@ -1,4 +1,4 @@
 ---
-name: akce
+title: akce
 position: 3
 ---

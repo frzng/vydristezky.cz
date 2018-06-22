@@ -1,4 +1,4 @@
 ---
-name: řeka
+title: řeka
 position: 1
 ---
