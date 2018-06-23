@@ -1,6 +1,8 @@
 require 'pathname'
 require 'yaml'
 
+require 'jekyll'
+
 def jekyll_config_files
   return [] unless ENV.key? 'JEKYLL_LANG'
 
@@ -47,5 +49,34 @@ def cms_config
     rescue Errno::ENOENT
       @cms_config = nil
     end
+  end
+end
+
+##
+# Copies source to target using cloning if possible.
+#
+# Jekyll or its dependencies require that files are effectively
+# regular files, so symlinks are out of question. Hardlinks can cause
+# other issues.
+#
+# It is expected that necessary directories exist.
+def clone_file source, target, *opts
+  cmd = ['cp']
+  cmd << '-R' if opts.include? :recursive
+
+  if RUBY_PLATFORM.include? 'darwin'
+    sh *(cmd + ['-c', source, target]) do |ok|
+      break if ok
+      if Jekyll.env != 'production'
+        $stderr.puts "Cannot use file cloning, falling back to regular copying"
+      end
+      sh *(cmd + [source, target])
+    end
+  else
+    # macOS requires explicit clone argument for copy (see
+    # above). Behavior on other platforms is uknown, except for Linux
+    # where it occur automatically. Therefore, just doing copy should
+    # be fine.
+    cp *(cmd + [source, target])
   end
 end
