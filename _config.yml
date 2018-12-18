@@ -58,8 +58,7 @@ exclude:
 # Netlify CMS assets are created before Jekyll build via Rake build
 # task.
 keep_files:
-  - assets/javascripts/cms.js
-  - assets/javascripts/cms.js.map
-  - assets/stylesheets/cms.css
+  - assets/javascripts/netlify-cms.js
+  - assets/javascripts/netlify-cms.js.map
   - assets/src
   - assets/node_modules

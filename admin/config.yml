@@ -91,7 +91,7 @@ collections:
   delete: false
   files:
 
-  - name: 404
+  - name: "404"
     label: Page not found
     file: 404.md
     format: frontmatter
@@ -942,11 +942,11 @@ collections:
   - name: single_column_page
     label: Single-column page
     file: _layouts/single_column_page.html
-    fields: []
-    meta:
+    fields:
     - name: title
-      label: Title
+      label: "\U0001F6AB Title (do not change)"
       widget: string
+    meta:
     - name: layout
       label: Layout
       widget: string
@@ -959,11 +959,11 @@ collections:
   - name: two_columns_page
     label: Two-columns page
     file: _layouts/two_columns_page.html
-    fields: []
-    meta:
+    fields:
     - name: title
-      label: Title
+      label: "\U0001F6AB Title (do not change)"
       widget: string
+    meta:
     - name: layout
       label: Layout
       widget: string
