@@ -98,7 +98,7 @@
        * @return {*}
        */
       function immutableToJs(value) {
-        return value.toJS ? value.toJS() : value
+        return (typeof value === 'object') && value.toJS ? value.toJS() : value
       }
 
       /**
