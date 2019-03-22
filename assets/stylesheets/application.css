@@ -8056,22 +8056,25 @@ input[type="color"]:focus,
   margin: 0 0 18px; }
 
 /*======================= ASIDE RIGHT =======================*/
+.filter-module,
 .archive-module,
 .categories-module,
 .mod-menu .nav.menu,
 .list1 ul,
 .links ul {
   margin: 4px 0 0;
-  color: #BB0A21;
   list-style: inside; }
 
+.filter-module li,
 .archive-module li,
 .categories-module li,
 .mod-menu .nav.menu li,
 .list1 ul li,
 .links ul li {
+  color: #BB0A21;
   margin: 0 0 4px; }
 
+.filter-module li a,
 .archive-module li a,
 .categories-module li a,
 .mod-menu .nav.menu li a,
@@ -8081,6 +8084,7 @@ input[type="color"]:focus,
   color: #74705f;
   line-height: 19px; }
 
+.filter-module li a:hover,
 .archive-module li a:hover,
 .categories-module li a:hover,
 .mod-menu .nav.menu li a:hover,
@@ -8088,6 +8092,15 @@ input[type="color"]:focus,
 .links ul li a:hover {
   background: none;
   color: #BB0A21; }
+
+.filter-module li {
+  list-style-type: circle; }
+.filter-module li.active {
+  list-style-type: disc; }
+.filter-module li.active a {
+  color: #BB0A21; }
+.filter-module li.active a:hover {
+  color: #74705f; }
 
 #aside-right .mission {
   margin: 0 0 50px; }
