@@ -1,8 +1,8 @@
 ---
 title: Zastavení
+published: true
 permalink: /stezka/zastaveni
 long_title: Průvodce
-published: true
 listed: true
 position: 1
 layout: two_columns_page
@@ -12,15 +12,17 @@ nezpevněné cestě, třikrát krátce po silnici. Jeden kratší úsek vede ve
 svahu lesní pěšinou – v případě jízdy na kole či putování s kočárkem jde
 o náročný, i když krátký úsek, který se dá překonat.
 
-Délka trasy: 10 km
+**Délka trasy**: 10 km
 
-Začátek: obec Dačice (most přes řeku Dyje)  
-Konec: obec Staré Hobzí (náves)  
-Počet informačních tabulí: 9
+**Začátek**: obec Dačice (most přes řeku Dyje)\
+**Konec**: obec Staré Hobzí (náves)\
+**Počet informačních tabulí**: 9
 
-### Jednotlivá zastavení
+# Jednotlivá zastavení
 
-#### Km 0: Tabule č. 1. úvodní tabule v obci Dačice  
+
+
+# Km 0: Tabule č. 1. úvodní tabule v obci Dačice
 
 ![](/media/IMG_0197_610.JPG)
 
@@ -35,7 +37,9 @@ pravém břehu. Stezka dál pokračuje na druhé straně mostu, kde hned
 narazíte na turistický rozcestník a dál už Vás budou navádět zelené
 turistické značky.
 
-#### Km 0: Homolkův mlýn
+
+
+# Km 0: Homolkův mlýn
 
 ![](/media/Homolkuv_610.JPG)
 
@@ -44,14 +48,18 @@ do spojitosti s rytířem Janem Babkou, mlýn byl dlouho zvaný Babkův.
 Dnešní název pochází od posledních majitelů. K mlýnu byla po dlouhou
 dobu přidružena i pekárna. V roce 1948 byl znárodněn a později zrušen.
 
-#### Km 1,5: Tabule č. 2. Řeka Dyje a ryby
+
+
+# Km 1,5: Tabule č. 2. Řeka Dyje a ryby
 
 Každá řeka se od pramene po své ústí do moře vyvíjí. Pod Dačicemi má
 Moravská Dyje charakter tzv. „parmového pásma“. Rybí společenstvo
 Moravské Dyje je v úseku Vydří stezky velmi pestré, zaznamenáno zde bylo
 24 druhů ryb.
 
-#### Km 1,7: Tabule č. 3. Natura 2000
+
+
+# Km 1,7: Tabule č. 3. Natura 2000
 
 ![](/media/IMG_6923_610.JPG)
 
@@ -63,7 +71,9 @@ omezené svým výskytem jen na určitou oblast. Přírodní památka Moravská
 Dyje je součástí této soustavy a vydra říční je jedním z předmětů
 ochrany.
 
-#### Km 2,2: Frelův mlýn
+
+
+# Km 2,2: Frelův mlýn
 
 ![](/media/Freluv_610.JPG)
 
@@ -72,7 +82,9 @@ Tento mlýn je také znám jako Švábův, Šantrůčkův, Peckův či Kubešův
 dalších mlynářů. Manželé Peckovi v roce 1931 oficiálně ukončili činnost
 mlýna, poté se jako pohostinství stal cílem dačických při vycházkách.
 
-#### Km 2,2: Tabule č. 4. Vydra
+
+
+# Km 2,2: Tabule č. 4. Vydra
 
 ![](/media/IMG_6921_610.JPG)
 
@@ -84,12 +96,16 @@ jak tekoucí, tak i stojaté vody. Na Dačicku vydry žijí jak na rybnících,
 menších tůních, požárních nádržích, tak i na všech potocích a na
 Moravské Dyji.
 
-#### Km 3,0: obec Hradišťko
+
+
+# Km 3,0: obec Hradišťko
 
 Hradišťko je malá obec, která formálně spadá pod Dačice jako jeho místní
 část, v současnosti zde žije něco málo přes sto obyvatel.
 
-#### Km 5,2: vlhké nivní louky
+
+
+# Km 5,2: vlhké nivní louky
 
 ![](/media/IMG_6914_610.JPG)
 
@@ -98,7 +114,9 @@ mají na živiny bohaté půdy. Významně je na těchto loukách zastoupena
 psárka luční a metlice trsnatá, rostou zde vzácné rostliny, například
 rozrazil dlouholistý, žluťucha lesklá, jarva žilnatá, svízel severní.
 
-#### Km 5,6: tabule č. 5 potrava vydry
+
+
+# Km 5,6: tabule č. 5 potrava vydry
 
 ![](/media/IMG_0202_610.JPG)
 
@@ -108,7 +126,9 @@ vodního savce či ptáka. Vydra velmi dobře plave a potápí se. Potravu
 loví jak ve volné vodě, tak ji hledá na dně mezi kameny, i v dutinách
 členitých břehů. Kořist hledá zrakem (očima) i hmatem (vousy).
 
-#### Km 5,7: suché skalnaté stráně
+
+
+# Km 5,7: suché skalnaté stráně
 
 Vznikají na strmých skalnatých výslunných svazích údolí. Dříve byly díky
 pastvě v celém údolí běžné, dnes zůstaly zachovány jen drobné fragmenty.
@@ -116,7 +136,9 @@ Také zde se nachází řada vzácných druhů rostlin, typické jsou v údolí
 Dyje divizna jižní rakouská a divizna ozdobná, nebo chrpa latnatá,
 netřesk výběžkatý a rmen barvířský.
 
-#### Km 6,2: Spálený mlýn
+
+
+# Km 6,2: Spálený mlýn
 
 ![](/media/spaleny_610.JPG)
 
@@ -125,7 +147,9 @@ zmíněn v roce 1369. Mlýn sloužil jako obilný mlýn a pila. V roce 1932
 zde byla instalována turbína. Dle záznamů vodní pila pracovala do roku
 1938.
 
-#### Km 7,1: Volfův mlýn
+
+
+# Km 7,1: Volfův mlýn
 
 ![](/media/IMG_8593_610.JPG)
 
@@ -133,7 +157,9 @@ Aumühle či také Lužní mlýn je poprvé uveden v písemnostech v roce 1627.
 Dnešní název má po posledních majitelích, kteří již však mlýn
 nevyužívali a pouze zde hospodařili jako zemědělci.
 
-#### Km 7,5: tabule č. 6: Přežijí vydry?
+
+
+# Km 7,5: tabule č. 6: Přežijí vydry?
 
 ![](/media/P1190477.JPG)
 
@@ -148,7 +174,9 @@ ztrátu ryb způsobenou vydrou po svém – střelbou, železy nebo trávením. 
 tak je budoucnost vyder u nás i přes její legislativní ochranu a řadu
 ochranářských opatření nejistá.
 
-#### Km 8,1: slepé rameno řeky
+
+
+# Km 8,1: slepé rameno řeky
 
 ![](/media/P1160159_610.JPG)
 
@@ -159,7 +187,9 @@ krajině ale nemají tolik prostoru a jsou neustále svazovány do jednoho
 úzkého koryta. Existují jen výjimky, kde jsou tyto tvary vidět. Zde
 například slepé rameno, které vzniklo na původním místě koryta.
 
-#### Km 9,0: Loucký mlýn
+
+
+# Km 9,0: Loucký mlýn
 
 ![](/media/Loucky_610.JPG)
 
@@ -169,7 +199,9 @@ pro premonstrátský klášter v Louce u Znojma. V roce 1901 vyhořel, poté
 byly budovy postaveny znovu. Ještě v roce 1989 zde byla instalována
 turbína, dnes již však v provozu není.
 
-#### Km 9,0: tabule č. 7: vodní mlýny
+
+
+# Km 9,0: tabule č. 7: vodní mlýny
 
 ![](/media/IMG_6856_610.JPG)
 
@@ -187,7 +219,9 @@ jako restaurační zařízení, jiné chátrají. Vodní kola a mlecí konstrukc
 či modernější turbíny si neprohlédnete již žádné. Náhony jsou někde
 zatopeny vodou, některé jsou vyschlé. Zachovány byly jen jezy.
 
-#### Km 9,4: tabule č. 8: život u vody
+
+
+# Km 9,4: tabule č. 8: život u vody
 
 ![](/media/P1190450_610.JPG)
 
@@ -205,7 +239,9 @@ U této tabule se turistická značka odděluje od naučné stezky - značka
 pokračuje doprava přes most směr Slavonice, konec stezky je ve Starém
 Hobzí tedy po silnici doleva do kopce.
 
-#### Km 10,5: tabule č. 9: úvodní tabule v obci Staré Hobzí
+# 
+
+# Km 10,5: tabule č. 9: úvodní tabule v obci Staré Hobzí
 
 V obci se nachází jeden z nejstarších kostelů na jižní Moravě, románská
 kaple je datována do roku 1190. Centru obce vévodí zámek - jedná se o
