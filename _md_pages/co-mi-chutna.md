@@ -1,9 +1,9 @@
 ---
 title: Co mi chutná
-permalink: /stezka/stezka-s-loirou/co-mi-chutna
-image: "/media/IGP4688_610.JPG"
-long_title: Co žije v řece (a chutná mi)
 published: true
+permalink: /stezka/stezka-s-loirou/co-mi-chutna
+image: /media/IGP4688_610.JPG
+long_title: Co žije v řece (a chutná mi)
 listed: true
 position: 2
 layout: two_columns_page
@@ -14,7 +14,11 @@ obojživelníků, plazů, raci.
 ![](/media/Loira_06_300.jpg){: .wysiwyg-float-left}V řece žije spousta
 druhů ryb, výzkumníci jich napočítali 24 druhů! To už si mám z čeho
 vybrat. Jen mi tedy přijde, že té potravy mám čím dál míň, hlavně ty
-žáby a raci se někam ztrácí.
+žáby a raci se někam ztrácí. 
+
+<div class="clearfix"></div>
+
+
 
 #### Ostroretka stěhovavá
 
@@ -52,9 +56,10 @@ Podle této ryby je pojmenováno celé pásmo řek, tzv. „parmové pásmo“.
 Odborníci si rozdělují řeky na čtyři pásma, pro které jsou typické různé
 druhy ryb, ale i ostatních živočichů. Pásma jsou také typické určitou
 rychlostí průtoku vody, spádem, čistotou vody a třeba také složením dna
-- jestli jsou na dně kameny, písek či bahno. Parma je velká ryba - až 60
-cm dlouhá. Je štíhlá a tak přizpůsobená lovu potravy v proudných úsecích
-řek.
+
+* jestli jsou na dně kameny, písek či bahno. Parma je velká ryba - až 60
+  cm dlouhá. Je štíhlá a tak přizpůsobená lovu potravy v proudných úsecích
+  řek.
 
 #### Rak říční
 
