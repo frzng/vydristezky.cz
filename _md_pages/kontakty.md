@@ -2,6 +2,7 @@
 title: Kontakty
 published: true
 permalink: /o-nas/kontakty
+description: 'Provozovatel: ALKA Wildlife, o.p.s.'
 listed: true
 position: 1
 layout: two_columns_page
