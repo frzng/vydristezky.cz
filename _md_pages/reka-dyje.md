@@ -1,8 +1,8 @@
 ---
 title: Řeka Dyje
-permalink: /stezka/stezka-s-loirou/reka-dyje
-image: "/media/IMG_9085_610.JPG"
 published: true
+permalink: /stezka/stezka-s-loirou/reka-dyje
+image: /media/IMG_9085_610.JPG
 listed: true
 position: 1
 layout: two_columns_page
@@ -16,6 +16,8 @@ významná součást domova. Dobře se tu najím, je tu pořád spousta různýc
 ryb, žáby a raci. Zároveň tu zjistím novinky, další vydry z jiných
 potoků sem taky občas chodí, a tak zjistím, jestli se přistěhoval nějaký
 nový kluk, kolik dětí mají sousedky a tak.
+
+<div class="clearfix"></div>
 
 ![](/media/Loira_02_300.jpg){: .wysiwyg-float-right}Docela dobře se tu
 ale i spí, je tu totiž spousta míst, ze kterých si můžu vybrat. Když je
