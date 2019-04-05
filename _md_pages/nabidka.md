@@ -1,18 +1,23 @@
 ---
 title: Nabídka
-permalink: /o-nas/nabidka
 published: true
+permalink: /o-nas/nabidka
+description: Nabízíme možnost procházky stezkou s průvodcem.
 listed: true
 position: 3
 layout: two_columns_page
 ---
-*Nabízíme možnost procházky stezkou s průvodcem.*
+_Nabízíme možnost procházky stezkou s průvodcem._
 
-###### Místo realizace:
+
+
+## Místo realizace:
 
 naučná Vydří stezka na Dyji (Dačice - Staré Hobzí)
 
-###### Program:
+
+
+## Program:
 
 Procházka celou stezkou v délce 10 km, seznámení s obsahem tabulí,
 diskuse nad danou tématikou, ukázky technik sledování volně žijících
@@ -21,19 +26,27 @@ zvířat.
 Pro děti jsou k dispozici odměny ve formě pexesa, omalovánek, samolepek.
 Připraven máme také pro děti test znalostí.
 
-###### Věk:
+
+
+## Věk:
 
 Vzhledem k délce trasy vhodné pro děti starší 9 let.
 
-###### Délka programu:
+
+
+## Délka programu:
 
 4-5 hodin
 
-###### Průvodci:
+
+
+## Průvodci:
 
 Kateřina a Lukáš Poledníkovi
 
-###### Cena:
+
+
+## Cena:
 
 Je třeba nás kontaktovat a domluvit se, jestli máme aktuálně jiné
 finanční zdroje nebo je služba placená.
