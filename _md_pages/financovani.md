@@ -2,6 +2,7 @@
 title: Financování
 published: true
 permalink: /o-nas/financovani
+description: Vydří stezka byla financována ze dvou dotačních titulů.
 listed: true
 position: 2
 layout: two_columns_page
