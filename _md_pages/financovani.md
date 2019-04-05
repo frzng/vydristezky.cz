@@ -7,9 +7,9 @@ listed: true
 position: 2
 layout: two_columns_page
 ---
-# Vydří stezka na Dyji 
+# Vydří stezka na Dyji
 
-**Kód projektu: **(CZ.1.02/6.2.00/11.11604)
+**Kód projektu**: CZ.1.02/6.2.00/11.11604
 
 **Trvání projektu:** 2012 - 2013
 
@@ -21,8 +21,6 @@ ERDF a státní fond (program OPŽP), vlastní zdroje, Ekoplast Telč
 * Vybudování stezky (otevřena v roce 2013)
 * Informační letáček
 * Přednášky v městské knihovně v Dačicích (2012 – 2013)
-
-
 
 # Realizace vybraných opatření pro vydru říční v České republice
 
