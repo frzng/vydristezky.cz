@@ -31,6 +31,9 @@ collections:
     permalink: /:categories/:title
   showcases: {}
   filterable_tags: {}
+  logosets:
+      output: true
+  
 
 # Build settings
 destination: _site
